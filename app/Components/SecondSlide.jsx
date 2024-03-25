@@ -6,7 +6,6 @@ import { ImCheckboxChecked } from "react-icons/im";
 import photo1 from "@/publicdesign.png";
 import photo2 from "@/publicapi.png";
 import photo3 from "@/publicweb-maintenance.png";
-import { auto } from "openai/_shims/registry.mjs";
 
 //Main Function
 export default function SecondSlide() {
@@ -15,9 +14,8 @@ export default function SecondSlide() {
       <div className="relative top-[40px]">
         <Image
           alt="First"
-          height={auto}
           src={photo1}
-          className="animate-bounce cursor-progress msm:max-h-[250px] msm:max-w-[250px] msmm:max-h-[200px] msmm:max-w[120px] mxl:w-[400px] msmm:mt-[-20px]"
+          className="animate-bounce h-auto cursor-progress msm:max-h-[250px] msm:max-w-[250px] msmm:max-h-[200px] msmm:max-w[120px] mxl:w-[400px] msmm:mt-[-20px]"
         />
       </div>
       <div className="flex flex-col sm:w-[500px] msm:px-3 gap-5">
