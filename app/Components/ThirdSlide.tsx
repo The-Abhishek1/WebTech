@@ -8,7 +8,7 @@ import happy from "@/publictestimonials.png";
 //Main Function
 export default function ThirdSlide() {
   return (
-    <div className="msm:grid bg-cyan-50 border-gray-300 border-t-[1px] msm:grid-cols-2  flex flex-row flex-wrap items-center justify-around p-5 py-10 gap-10">
+    <div className="msm:grid border-b-[1px] bg-cyan-50 border-gray-300 border-t-[1px] msm:grid-cols-2  flex flex-row flex-wrap items-center justify-around p-5 py-10 gap-10">
       <div className="flex flex-col items-center justify-center gap-2">
         <Image src={projects} alt="" className="w-[100px] msmm:w-[60px]" />
         <h1 className="text-lg text-blue-600 font-bold">986+</h1>

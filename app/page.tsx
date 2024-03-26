@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import FirstSlide from "./Components/FirstSlide";
 import SecondSlide from "./Components/SecondSlide";
 import ThirdSlide from "./Components/ThirdSlide";
+import FourthSlide from "./Components/FourthSlide";
 function Page() {
   return (
     <div>
@@ -12,6 +13,7 @@ function Page() {
       <FirstSlide />
       <SecondSlide />
       <ThirdSlide />
+      <FourthSlide />
     </div>
   );
 }
