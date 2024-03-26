@@ -16,7 +16,7 @@ import { GoGoal } from "react-icons/go";
 //Main Function
 export default function Header() {
   return (
-    <div className="bg-blue-300 sticky w-full flex flex-row items-center justify-around text-black p-4 mlg:justify-between">
+    <div className="bg-blue-300 sticky top-0 z-10 w-full flex flex-row items-center justify-around text-black p-4 mlg:justify-between">
       <div className="flex flex-row items-center gap-3 ">
         <Image
           src={Logo}

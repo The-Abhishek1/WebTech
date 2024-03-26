@@ -36,7 +36,7 @@ export default function SecondSlide() {
             leadership skills. Globally customize equity invested imperatives.
           </p>
         </div>
-        <div className="flex flex-col justify-between gap-5">
+        <div className="flex flex-col justify-between gap-5 mxl:self-center">
           <div className="flex flex-row items-center gap-2">
             <ImCheckboxChecked size={20} color="blue" />
             <p className="text-[14px] mmd:text-[12px]">
@@ -52,7 +52,7 @@ export default function SecondSlide() {
           <div className="flex flex-row items-center gap-2">
             <ImCheckboxChecked size={20} color="blue" />
             <p className="text-[14px] mmd:text-[12px]">
-              professional User Experience & Interface researching
+              Professional User Experience & Interface researching
             </p>
           </div>
           <div className="p-2 cursor-pointer rounded-md flex flex-row items-center self-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
