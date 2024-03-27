@@ -18,10 +18,12 @@ export default function Services() {
             <BsMotherboard size={30} />
             <h3 className="text-[18px]">What we do</h3>
           </div>
-          <h1 className="text-[30px] font-bold">We Provide Exclusive</h1>
-          <h1 className="text-[30px] font-bold">
+          <h1 className="text-[30px] font-bold msm:text-[20px]">
+            We Provide Exclusive
+          </h1>
+          <h1 className="text-[30px] font-bold msm:text-[20px]">
             Service For{" "}
-            <p className="font-normal inline text-blue-600">Your Business</p>
+            <p className="font-normal inline text-blue-600 ">Your Business</p>
           </h1>
         </div>
 
@@ -30,8 +32,8 @@ export default function Services() {
           <FaArrowRightLong />
         </div>
       </div>
-      <div className="flex flex-row flex-wrap mx-20 items-center justify-center gap-4 p-4 bg-white group">
-        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 border-2 border-gray-300  w-[250px] rounded-sm">
+      <div className="flex flex-row flex-wrap mx-20 items-center justify-center gap-4 p-4 ">
+        <div className="flex flex-col gap-2 relative items-center bg-white justify-center  p-4 group w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
@@ -43,17 +45,19 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold">Web Developemnt</h1>
-                <p className="text-[15px]">Some Dummy Data</p>
+                <h1 className="text-[18px] font-bold msmm:text-[15px]">
+                  Web Developemnt
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p>Read More</p>
+                <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 border-2 border-gray-300  w-[250px] rounded-sm">
+        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
@@ -65,17 +69,19 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold">Web Developemnt</h1>
-                <p className="text-[15px]">Some Dummy Data</p>
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  Bussiness Analysis
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p>Read More</p>
+                <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 border-2 border-gray-300  w-[250px] rounded-sm">
+        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group  w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
@@ -87,17 +93,19 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold">Web Developemnt</h1>
-                <p className="text-[15px]">Some Dummy Data</p>
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  Software Services
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p>Read More</p>
+                <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 border-2 border-gray-300  w-[250px] rounded-sm">
+        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
@@ -109,11 +117,61 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold">Web Developemnt</h1>
-                <p className="text-[15px]">Some Dummy Data</p>
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  UI/UX Design
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p>Read More</p>
+                <p className="msmm:text-[13px]">Read More</p>
+                <FaArrowRightLong />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
+          <Image alt="" src={website} className="w-[90%]" />
+          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+            <div className="mt-[-50px]">
+              <Image
+                alt=""
+                src={website}
+                className="w-[70px]  rounded-full bg-white p-3"
+              />
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  Digital Marketing
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+              </div>
+              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                <p className="msmm:text-[13px]">Read More</p>
+                <FaArrowRightLong />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
+          <Image alt="" src={website} className="w-[90%]" />
+          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+            <div className="mt-[-50px]">
+              <Image
+                alt=""
+                src={website}
+                className="w-[70px]  rounded-full bg-white p-3"
+              />
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  App Development
+                </h1>
+                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+              </div>
+              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
             </div>
