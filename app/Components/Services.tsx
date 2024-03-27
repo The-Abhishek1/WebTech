@@ -11,7 +11,7 @@ import services from "@/publicsoftwareservice.png";
 //Main Function
 export default function Services() {
   return (
-    <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 p-10 rounded-md">
+    <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 rounded-md">
       <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
         <div>
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
@@ -32,7 +32,7 @@ export default function Services() {
           <FaArrowRightLong />
         </div>
       </div>
-      <div className="flex flex-row flex-wrap mx-20 items-center justify-center gap-4 p-4 ">
+      <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 ">
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  p-4 group w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
