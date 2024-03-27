@@ -55,8 +55,10 @@ export default function SecondSlide() {
               Professional User Experience & Interface researching
             </p>
           </div>
-          <div className="p-2 cursor-pointer rounded-md flex flex-row items-center self-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
-            <button className="">Discover More</button>
+          <div className="p-2 cursor-pointer rounded-md flex flex-row items-center self-center justify-center gap-2 bg-blue-500 text-white w-[170px]">
+            <button className="uppercase font-bold text-[15px]">
+              Discover More
+            </button>
             <FaLongArrowAltRight />
           </div>
         </div>

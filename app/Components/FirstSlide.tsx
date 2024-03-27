@@ -17,7 +17,7 @@ export default function FirstSlide() {
         </p>
         <q className="italic">#InnovationUnleashed</q>
         <div className="p-2 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
-          <button className="">About Us</button>
+          <button className="uppercase font-bold text-[15px]">About Us</button>
           <FaArrowRightLong />
         </div>
       </div>

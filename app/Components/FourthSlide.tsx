@@ -34,7 +34,7 @@ export default function FourthSlide() {
               <h3 className="inline">85%</h3>
             </div>
             <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+              <div className="bg-blue-600 w-[85%] font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
@@ -43,16 +43,16 @@ export default function FourthSlide() {
               <h3 className="inline">65%</h3>
             </div>
             <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+              <div className="bg-blue-600 w-[65%] font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
             <div className="flex flex-row items-center justify-between">
               <h3>UI/UX Design</h3>
-              <h3 className="inline">80%</h3>
+              <h3 className="inline">90%</h3>
             </div>
             <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+              <div className="bg-blue-600 w-[90%]  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
@@ -61,7 +61,7 @@ export default function FourthSlide() {
               <h3 className="inline">75%</h3>
             </div>
             <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+              <div className="bg-blue-600 w-[75%]  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
             </div>
           </div>
         </div>
