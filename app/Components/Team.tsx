@@ -3,7 +3,7 @@ import { BsMotherboard } from "react-icons/bs";
 import { IoMdAdd, IoLogoLinkedin } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { FaXTwitter, FaWhatsapp, FaInstagram } from "react-icons/fa6";
-import abhi from "@/publicabhi2.jpg";
+import abhi from "@/publicabhi.jpg";
 import nandi from "@/publicnandi.jpg";
 import karthi from "@/publickarthi.jpg";
 import bhuvanesh from "@/publicbhuvanesh.jpg";
@@ -20,7 +20,7 @@ export default function Team() {
             <BsMotherboard size={30} />
             <h3 className="text-[18px] uppercase">Great Team</h3>
           </div>
-          <h1 className="text-[30px] font-bold msm:text-[20px]">
+          <h1 className="text-[30px] text-center font-bold msm:text-[20px]">
             See Our Skilled Expert
             <p className="font-normal inline text-blue-600 "> Team</p>
           </h1>
