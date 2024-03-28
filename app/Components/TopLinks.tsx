@@ -44,6 +44,7 @@ function TopLinks() {
           <FaWhatsapp />
           <FaInstagram />
           <FaDiscord />
+          <FaYoutube />
         </div>
       </div>
     </div>

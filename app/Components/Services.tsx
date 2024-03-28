@@ -28,7 +28,7 @@ export default function Services() {
           </h1>
         </div>
 
-        <div className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[170px]">
+        <div className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 shadow-lg shadow-blue-400 text-white w-[170px]">
           <button className="uppercase font-bold text-[15px]">About Us</button>
           <FaArrowRightLong />
         </div>

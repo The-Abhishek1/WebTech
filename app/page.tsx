@@ -8,6 +8,7 @@ import FourthSlide from "./Components/FourthSlide";
 import Services from "./Components/Services";
 import Team from "./Components/Team";
 import FeedBack from "./Components/FeedBack";
+import Footer from "./Components/Footer";
 
 //Main Function
 function Page() {
@@ -22,6 +23,7 @@ function Page() {
       <Services />
       <Team />
       <FeedBack />
+      <Footer />
     </div>
   );
 }

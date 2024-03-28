@@ -16,7 +16,7 @@ export default function FirstSlide() {
           UI/UX design. Let us ignite your digital journey! 💻📱
         </p>
         <q className="italic">#InnovationUnleashed</q>
-        <div className="p-2 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
+        <div className="p-2 cursor-pointer shadow-lg shadow-blue-400 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
           <button className="uppercase font-bold text-[15px]">About Us</button>
           <FaArrowRightLong />
         </div>

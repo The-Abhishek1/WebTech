@@ -7,12 +7,12 @@ import web from "@/publicgraphic-tablet.png";
 export default function FourthSlide() {
   return (
     <div className="mlg:flex-col flex flex-row justify-around  px-10 py-5 lg:gap-10 bg-cyan-50 ">
-      <div className="flex flex-col justify-center gap-3 lg:w-[600px] ">
-        <div className="flex flex-row gap-2 text-blue-600 uppercase">
+      <div className="flex flex-col justify-center gap-3 lg:w-[600px]">
+        <div className="flex flex-row gap-2 text-blue-5 uppercase mlg:justify-center">
           <BsMotherboard size={30} />
           <h5>Great IT Skills</h5>
         </div>
-        <div className="flex flex-col font-bold text-[30px] mmd:text-[20px]">
+        <div className="flex flex-col font-bold text-[30px] mmd:text-[20px] mlg:items-center">
           <h1>More Than 20+ Years Experience</h1>
           <h1>
             We Provide
@@ -33,8 +33,8 @@ export default function FourthSlide() {
               <h3>Web Development</h3>
               <h3 className="inline">85%</h3>
             </div>
-            <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600 w-[85%] font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+            <div className="lg:w-[500px]  bg-gray-200 rounded-full dark:bg-gray-300">
+              <div className="bg-blue-500 w-[85%] font-medium text-blue-100 text-center p-[4px] leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
@@ -42,8 +42,8 @@ export default function FourthSlide() {
               <h3>App Development</h3>
               <h3 className="inline">65%</h3>
             </div>
-            <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600 w-[65%] font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+            <div className="lg:w-[500px] bg-gray-200 rounded-full dark:bg-gray-300">
+              <div className="bg-blue-500 w-[65%] font-medium text-blue-100 text-center p-[4px] leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
@@ -51,8 +51,8 @@ export default function FourthSlide() {
               <h3>UI/UX Design</h3>
               <h3 className="inline">90%</h3>
             </div>
-            <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600 w-[90%]  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+            <div className="lg:w-[500px] bg-gray-200 rounded-full dark:bg-gray-300">
+              <div className="bg-blue-500 w-[90%]  font-medium text-blue-100 text-center p-[4px] leading-none rounded-full"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-center font-bold text-[.8rem]">
@@ -60,8 +60,8 @@ export default function FourthSlide() {
               <h3>Website Management</h3>
               <h3 className="inline">75%</h3>
             </div>
-            <div className="lg:w-[500px] p-1 bg-gray-200 rounded-full dark:bg-gray-300">
-              <div className="bg-blue-600 w-[75%]  font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"></div>
+            <div className="lg:w-[500px]  bg-gray-200 rounded-full dark:bg-gray-300">
+              <div className="bg-blue-500 w-[75%]  font-medium text-blue-100 text-center p-[4px] leading-none rounded-full"></div>
             </div>
           </div>
         </div>

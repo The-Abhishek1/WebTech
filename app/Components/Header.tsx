@@ -26,7 +26,7 @@ export default function Header() {
           className="rounded-[30px] h-[40px] w-[40px]"
           priority={true}
         />
-        <div className="msmm:hidden flex flex-row items-center text-[26px] gap-2">
+        <div className="msmm:hidden flex flex-row items-center text-[26px] gap-2 ">
           <h2 className="font-bold">Ablaze</h2>
           <h2>Nova</h2>
         </div>
