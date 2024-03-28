@@ -7,6 +7,7 @@ import ThirdSlide from "./Components/ThirdSlide";
 import FourthSlide from "./Components/FourthSlide";
 import Services from "./Components/Services";
 import Team from "./Components/Team";
+import FeedBack from "./Components/FeedBack";
 
 //Main Function
 function Page() {
@@ -20,6 +21,7 @@ function Page() {
       <FourthSlide />
       <Services />
       <Team />
+      <FeedBack />
     </div>
   );
 }
