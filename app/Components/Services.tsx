@@ -13,11 +13,11 @@ import app from "@/publiccoding.png";
 export default function Services() {
   return (
     <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
-      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
-        <div>
+      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-center">
+        <div className="flex flex-col gap-2 items-center">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
-            <h3 className="text-[18px]">What we do</h3>
+            <h3 className="text-[18px] uppercase">What we do</h3>
           </div>
           <h1 className="text-[30px] font-bold msm:text-[20px]">
             We Provide Exclusive
@@ -28,7 +28,7 @@ export default function Services() {
           </h1>
         </div>
 
-        <div className="p-2 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[170px]">
+        <div className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[170px]">
           <button className="uppercase font-bold text-[15px]">About Us</button>
           <FaArrowRightLong />
         </div>
