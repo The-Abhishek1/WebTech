@@ -7,11 +7,12 @@ import design from "@/publicillustration.png";
 import website from "@/publicapp-development.png";
 import business from "@/publicdata-analysis.png";
 import services from "@/publicsoftwareservice.png";
+import app from "@/publiccoding.png";
 
 //Main Function
 export default function Services() {
   return (
-    <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 rounded-md">
+    <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
       <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
         <div>
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
@@ -34,19 +35,19 @@ export default function Services() {
       </div>
       <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 ">
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  p-4 group w-[250px] rounded-sm">
-          <Image alt="" src={website} className="w-[90%]" />
+          <Image alt="" src={app} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
-                src={website}
+                src={app}
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px]">
-                  Web Developemnt
+                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                  Web Developement
                 </h1>
                 <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
               </div>
@@ -58,12 +59,12 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
-          <Image alt="" src={website} className="w-[90%]" />
+          <Image alt="" src={business} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
-                src={website}
+                src={business}
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
@@ -82,12 +83,12 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group  w-[250px] rounded-sm">
-          <Image alt="" src={website} className="w-[90%]" />
+          <Image alt="" src={services} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
-                src={website}
+                src={services}
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
@@ -106,12 +107,12 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
-          <Image alt="" src={website} className="w-[90%]" />
+          <Image alt="" src={design} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
-                src={website}
+                src={design}
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
@@ -130,12 +131,12 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
-          <Image alt="" src={website} className="w-[90%]" />
+          <Image alt="" src={promote} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
-                src={website}
+                src={promote}
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
