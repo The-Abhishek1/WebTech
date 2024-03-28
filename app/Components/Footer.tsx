@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa6";
 import Image from "next/image";
 import logo from "@/publicColor logo - no background.png";
-
+import post from "@/publiccustomer-service.png";
 //Main Function
 export default function Footer() {
   return (
@@ -148,7 +148,7 @@ export default function Footer() {
           </h1>
           <div className="flex flex-col gap-4 ">
             <div className="flex flex-row xl:gap-4 gap-2 bg-slate-300 text-blue-500 p-4 rounded-md cursor-progress">
-              <Image src={logo} alt="" className="xl:w-[100px] w-[70px]" />
+              <Image src={post} alt="" className="xl:w-[100px] w-[70px]" />
               <div className="flex flex-col gap-3 items-center">
                 <h3 className="text-[14px] text-center mmd:text-[13px]">
                   Unsatiable Entreaties May Collecting Power.
@@ -162,7 +162,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex flex-row xl:gap-4 gap-2 bg-slate-300 text-blue-500 p-4 rounded-md cursor-progress">
-              <Image src={logo} alt="" className="xl:w-[100px] w-[70px]" />
+              <Image src={post} alt="" className="xl:w-[100px] w-[70px]" />
               <div className="flex flex-col gap-3 items-center">
                 <h3 className="text-[14px] text-center mmd:text-[13px]">
                   Unsatiable Entreaties May Collecting Power.
