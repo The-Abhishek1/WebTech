@@ -130,7 +130,7 @@ export default function ProgressSlider() {
                         </h1>
                         <h3 className="text-[13px]">{item.position}</h3>
                       </div>
-                      <div className="flex flex-row items-center text-indigo-600">
+                      <div className="flex flex-row items-center gap-2 justify-center text-indigo-600">
                         <FaStar />
                         <FaStar />
                         <FaStar />
