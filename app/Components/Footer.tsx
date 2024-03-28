@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col bg-indigo-800 p-6 text-white gap-10">
       <div className="flex flex-row gap-2 justify-center items-center">
-        <Image src={logo} alt="" className="h-[50px] w-[50px]" />
+        <Image src={logo} alt="logo" className="h-[50px] w-[50px]" />
         <h1 className="text-[30px] font-bold mmd:text-[20px]">Ablaze Nova</h1>
       </div>
       <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
@@ -148,7 +148,7 @@ export default function Footer() {
           </h1>
           <div className="flex flex-col gap-4 ">
             <div className="flex flex-row xl:gap-4 gap-2 bg-slate-300 text-blue-500 p-4 rounded-md cursor-progress">
-              <Image src={post} alt="" className="xl:w-[100px] w-[70px]" />
+              <Image src={post} alt="post" className="xl:w-[100px] w-[70px]" />
               <div className="flex flex-col gap-3 items-center">
                 <h3 className="text-[14px] text-center mmd:text-[13px]">
                   Unsatiable Entreaties May Collecting Power.
@@ -162,7 +162,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex flex-row xl:gap-4 gap-2 bg-slate-300 text-blue-500 p-4 rounded-md cursor-progress">
-              <Image src={post} alt="" className="xl:w-[100px] w-[70px]" />
+              <Image src={post} alt="post" className="xl:w-[100px] w-[70px]" />
               <div className="flex flex-col gap-3 items-center">
                 <h3 className="text-[14px] text-center mmd:text-[13px]">
                   Unsatiable Entreaties May Collecting Power.
@@ -186,7 +186,7 @@ export default function Footer() {
             <h4>2024</h4>
             <h4 className="text-indigo-600">Abalze Nova.</h4>
           </div>
-          <h4 className="">All Rights Reserved.</h4>
+          <h4>All Rights Reserved.</h4>
         </div>
         <div className="flex flex-row gap-3 msmm:gap-1 items-center mmd:text-[13px]  msmm:text-[11px]">
           <h4 className="border-r-2 pr-2">Terms & Condition</h4>
