@@ -21,7 +21,7 @@ import post from "@/publiccustomer-service.png";
 //Main Function
 export default function Footer() {
   return (
-    <div className="flex flex-col bg-indigo-800 p-6 text-white gap-10">
+    <div className="flex flex-col bg-indigo-900 p-6 text-white gap-10">
       <div className="flex flex-row gap-2 justify-center items-center">
         <Image src={logo} alt="logo" className="h-[50px] w-[50px]" />
         <h1 className="text-[30px] font-bold mmd:text-[20px]">Ablaze Nova</h1>
