@@ -16,7 +16,7 @@ import {
   FaLocationDot,
 } from "react-icons/fa6";
 import Image from "next/image";
-import logo from "@/public177975028_padded_logo.png";
+import logo from "@/publiclogo.png";
 import post from "@/publiccustomer-service.png";
 //Main Function
 export default function Footer() {
