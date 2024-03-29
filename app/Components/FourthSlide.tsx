@@ -13,7 +13,7 @@ export default function FourthSlide() {
           <h5>Great IT Skills</h5>
         </div>
         <div className="flex flex-col font-bold text-[30px] mmd:text-[20px] mlg:items-center">
-          <h1>More Than 20+ Years Experience</h1>
+          <h1 className="mlg:text-center">More Than 20+ Years Experience</h1>
           <h1>
             We Provide
             <p className="inline font-normal text-blue-600"> IT Services</p>
