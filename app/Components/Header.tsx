@@ -142,7 +142,7 @@ export default function Header() {
         </div>
       ) : null}
       {showSearch ? (
-        <div className="items-center text-white lg:hidden justify-between absolute top-20 right-4">
+        <div className="items-center text-white justify-between absolute top-20 right-4">
           <div className="relative mt-3">
             <input
               type="text"
@@ -157,7 +157,7 @@ export default function Header() {
                 className="block hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
                 aria-current="page"
               >
-                Home
+                Web development
               </a>
             </li>
             <li>
@@ -165,7 +165,7 @@ export default function Header() {
                 href="#"
                 className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
-                About Us
+                Software Services
               </a>
             </li>
             <li>
@@ -173,14 +173,14 @@ export default function Header() {
                 href="#"
                 className="block text-[15px] hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
-                Services
+                Bussiness Analysis
               </a>
             </li>
           </ul>
         </div>
       ) : null}
       {showCart ? (
-        <div className="p-4 sm:top-24 rounded-md text-white absolute top-20 right-4  bg-gray-800">
+        <div className="flex flex-col gap-6 p-4 sm:top-24 rounded-md text-white absolute top-20 right-4  bg-gray-800">
           <div className="flex flex-col gap-10">
             <div className="flex gap-24 flex-row items-center justify-between">
               <h1 className="uppercase text-[15px] font-bold">Shopping cart</h1>
@@ -241,6 +241,24 @@ export default function Header() {
                   </div>
                 </div>
                 <IoMdClose size={20} color="gray" />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 items-center">
+            <div className="flex flex-row items-center gap-3">
+              <h1 className="font-bold">Subtotal:</h1>
+              <h1>$4398.00</h1>
+            </div>
+            <div className="flex flex-row items-center justify-between gap-3">
+              <div className="p-2 flex items-center justify-center cursor-pointer rounded-md  bg-blue-500 text-white w-[120px]">
+                <button className="uppercase font-bold text-[12px]">
+                  View cart
+                </button>
+              </div>
+              <div className="p-2  flex items-center justify-center cursor-pointer  rounded-md  bg-blue-500 text-white w-[120px]">
+                <button className="uppercase font-bold text-[12px]">
+                  Checkout
+                </button>
               </div>
             </div>
           </div>
