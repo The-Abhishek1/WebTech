@@ -16,7 +16,7 @@ import FAQ from "./Components/FAQ";
 //Main Function
 function Page() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <TopLinks />
       <Header />
       <FirstSlide />

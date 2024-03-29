@@ -6,7 +6,10 @@ import image from "@/publicresponsive-design.png";
 //Main Function
 export default function FirstSlide() {
   return (
-    <div className="bg-cyan-50 flex flex-row items-center justify-around p-4 py-8 msm:flex-col-reverse gap-4">
+    <div
+      className="bg-cyan-50 flex duration-[300ms] toas:[transform:perspective(2500px)_rotateX(-100deg)] toas:invisible toas:[backface-visibility:hideen] flex-row items-center justify-around p-4 py-8 msm:flex-col-reverse gap-4"
+      data-toas-offset="400"
+    >
       <div className="flex flex-col w-[450px] items-center justify-around smm:ml-10 gap-4 msm:w-[350px] msmm:w-[250px]">
         <h2 className="text-[40px] font-bold transition ease-in-out duration-700 delay-700 mmd:text-[25px]">
           Welcome
