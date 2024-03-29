@@ -93,7 +93,7 @@ export default function Footer() {
             Quick Links
           </h1>
           <div className="flex flex-col gap-3 justify-center">
-            <div className="flex flex-row items-center  gap-2">
+            <div className="flex flex-row items-center  gap-2 ">
               <FaAngleRight size={20} />
               <h3 className="mmd:text-[13px]">About Us</h3>
             </div>

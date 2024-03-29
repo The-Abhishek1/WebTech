@@ -48,10 +48,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   Web Developement
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
@@ -72,10 +72,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   Bussiness Analysis
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
@@ -96,10 +96,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   Software Services
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
@@ -120,10 +120,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   UI/UX Design
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
@@ -144,10 +144,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   Digital Marketing
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
@@ -168,10 +168,10 @@ export default function Services() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold msmm:text-[15px] uppercase">
+                <h1 className="text-[18px] font-bold msm:text-[15px] uppercase">
                   App Development
                 </h1>
-                <p className="text-[15px] msmm:text-[13px]">Some Dummy Data</p>
+                <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
               <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
