@@ -18,6 +18,8 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   //State to show searchBar
   const [showSearch, setSearch] = useState(false);
+  //State to show searchBar
+  const [showCart, setCart] = useState(false);
   return (
     <div className="bg-blue-300 sticky top-0 z-10 w-full flex flex-row items-center text-black p-4 justify-between">
       <div className="flex flex-row items-center gap-3 ">
@@ -51,6 +53,7 @@ export default function Header() {
         <div
           onClick={() => {
             setShowMenu(false);
+            setCart(false);
             setSearch(!showSearch);
           }}
           className="bg-white p-4 msm:p-3 rounded-full cursor-pointer"
@@ -61,13 +64,22 @@ export default function Header() {
           <h4>Make Appointment</h4>
           <FaArrowRightLong />
         </button>
-        <div className="bg-white p-4 msm:p-3  rounded-full cursor-pointer">
+        <div
+          onClick={() => {
+            setSearch(false);
+            setShowMenu(false);
+            setCart(true);
+          }}
+          className="bg-white flex flex-col items-center overflow-hidden relative  p-4 msm:p-3  rounded-full cursor-pointer"
+        >
           <MdOutlineShoppingCart />
+          <div className="bg-red-600 animate-ping text-white text-[6px] w-full h-full rounded-full absolute right-2 top-1"></div>
         </div>
 
         <div
           onClick={() => {
             setSearch(false);
+            setCart(false);
             setShowMenu(!showMenu);
           }}
           className="bg-blue-500 msm:p-2.5  p-3.5 cursor-pointer text-white rounded-[5px] lg:hidden"
@@ -76,7 +88,7 @@ export default function Header() {
         </div>
       </div>
       {showMenu ? (
-        <div className="items-center text-white lg:hidden justify-between absolute top-20 right-4">
+        <div className="transition ease-linear delay-500 duration-700 items-center text-white lg:hidden justify-between absolute top-20 right-4">
           <div className="relative mt-3">
             <input
               type="text"
@@ -165,6 +177,73 @@ export default function Header() {
               </a>
             </li>
           </ul>
+        </div>
+      ) : null}
+      {showCart ? (
+        <div className="p-4 sm:top-24 rounded-md text-white absolute top-20 right-4  bg-gray-800">
+          <div className="flex flex-col gap-10">
+            <div className="flex gap-24 flex-row items-center justify-between">
+              <h1 className="uppercase text-[15px] font-bold">Shopping cart</h1>
+              <div
+                onClick={() => {
+                  setCart(false);
+                }}
+                className="bg-white p-2 msm:p-1 rounded-sm cursor-pointer"
+              >
+                <IoMdClose color="blue" />
+              </div>
+            </div>
+            <div className="flex  flex-col gap-6 justify-center">
+              <div className="flex hover:bg-slate-700 rounded-lg p-2 flex-row justify-between items-center">
+                <div className="flex flex-row items-center gap-4">
+                  <Image
+                    src={Logo}
+                    alt=""
+                    className="w-[40px] p-2 bg-slate-100 rounded-md"
+                  />
+                  <div>
+                    <h3 className="text-[15px] msm:text-[13px]">
+                      Gaming Computer
+                    </h3>
+                    <p className="text-[13px] msm:text-[11px]">1 x $940.00</p>
+                  </div>
+                </div>
+                <IoMdClose size={20} color="gray" />
+              </div>
+              <div className="flex hover:bg-slate-700 rounded-lg p-2 flex-row justify-between items-center">
+                <div className="flex flex-row items-center gap-4">
+                  <Image
+                    src={Logo}
+                    alt=""
+                    className="w-[40px] p-2 bg-slate-100 rounded-md"
+                  />
+                  <div>
+                    <h3 className="text-[15px] msm:text-[13px]">
+                      Gaming Computer
+                    </h3>
+                    <p className="text-[13px] msm:text-[11px]">1 x $940.00</p>
+                  </div>
+                </div>
+                <IoMdClose size={20} color="gray" />
+              </div>
+              <div className="flex hover:bg-slate-700 rounded-lg p-2 flex-row justify-between items-center">
+                <div className="flex flex-row items-center gap-4">
+                  <Image
+                    src={Logo}
+                    alt=""
+                    className="w-[40px] p-2 bg-slate-100 rounded-md"
+                  />
+                  <div>
+                    <h3 className="text-[15px] msm:text-[13px]">
+                      Gaming Computer
+                    </h3>
+                    <p className="text-[13px] msm:text-[11px]">1 x $940.00</p>
+                  </div>
+                </div>
+                <IoMdClose size={20} color="gray" />
+              </div>
+            </div>
+          </div>
         </div>
       ) : null}
     </div>
