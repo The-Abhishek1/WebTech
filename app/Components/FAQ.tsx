@@ -14,7 +14,7 @@ export default function FAQ() {
   return (
     <div className="p-6 bg-slate-200 flex flex-col items-center gap-5">
       <div className="flex flex-col items-center">
-        <div className="flex flex-row items-center gap-3">
+        <div className="flex flex-row items-center gap-3 text-indigo-600 ">
           <BsMotherboard size={30} />
           <h3 className="uppercase text-[18px] msm:text-[15px]">
             frequently ask question
@@ -53,7 +53,7 @@ export default function FAQ() {
             )}
           </div>
           {firstshow ? (
-            <div className="text-[14px]  p-3 mmd:text-[12px]">
+            <div className="text-[14px]  p-3 mmd:text-[12px] ">
               Dramatically disseminate real-time portals rather than top-line
               action items. Uniquely provide access to low-risk high-yield
               products without dynamic products. Progressively re-engineer

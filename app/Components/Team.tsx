@@ -33,28 +33,28 @@ export default function Team() {
             src={abhi}
             className="w-[100%] h-[250px] bg-slate-400"
           />
-          <div className="flex relative flex-col items-center gap-10 w-full">
-            <div className=" absolute bottom-24 text-white bg-indigo-600 p-2 rounded-full">
+          <div className="flex relative  flex-col items-center gap-10 w-full">
+            <div className=" absolute bottom-24 text-white  bg-indigo-600 p-2 rounded-full">
               <IoMdAdd />
             </div>
-            <div className="hidden group-hover:flex flex-row absolute bottom-24 gap-3">
-              <div className=" text-indigo-600 bg-white p-2 rounded-full">
+            <div className="hidden group-hover:flex transition ease-linear delay-300 duration-700 flex-row absolute bottom-24 gap-3">
+              <div className=" text-indigo-600 bg-white p-2 rounded-full ">
                 <FaInstagram />
               </div>
-              <div className=" text-indigo-600 bg-white p-2 rounded-full">
+              <div className=" text-indigo-600 bg-white p-2 rounded-full ">
                 <FaWhatsapp />
               </div>
-              <div className=" text-white bg-indigo-600 p-2 rounded-full">
+              <div className=" text-white bg-indigo-600 p-2 rounded-full ">
                 <IoClose />
               </div>
-              <div className=" text-indigo-600 bg-white p-2 rounded-full">
+              <div className=" text-indigo-600 bg-white p-2 rounded-full ">
                 <IoLogoLinkedin />
               </div>
-              <div className=" text-indigo-600 bg-white p-2 rounded-full">
+              <div className=" text-indigo-600 bg-white p-2 rounded-full ">
                 <FaXTwitter />
               </div>
             </div>
-            <div className="text-center  border-t-2  flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
+            <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
               <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
                 Abhishek N
               </h1>
@@ -75,7 +75,7 @@ export default function Team() {
               <IoMdAdd />
             </div>
 
-            <div className="hidden group-hover:flex flex-row absolute bottom-24 gap-3">
+            <div className="hidden transition ease-linear delay-300 duration-700 group-hover:flex flex-row absolute bottom-24 gap-3">
               <div className=" text-indigo-600 bg-white p-2 rounded-full">
                 <FaInstagram />
               </div>
@@ -92,7 +92,7 @@ export default function Team() {
                 <FaXTwitter />
               </div>
             </div>
-            <div className="text-center  border-t-2  flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
+            <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
               <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
                 Bhuvanesh
               </h1>
@@ -112,7 +112,7 @@ export default function Team() {
             <div className="absolute bottom-24 text-white bg-indigo-600 p-2 rounded-full">
               <IoMdAdd />
             </div>
-            <div className="hidden group-hover:flex flex-row absolute bottom-24 gap-3">
+            <div className="hidden transition ease-linear delay-300 duration-700 group-hover:flex flex-row absolute bottom-24 gap-3">
               <div className=" text-indigo-600 bg-white p-2 rounded-full">
                 <FaInstagram />
               </div>
@@ -129,7 +129,7 @@ export default function Team() {
                 <FaXTwitter />
               </div>
             </div>
-            <div className="text-center  border-t-2  flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
+            <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
               <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
                 Nandish
               </h1>
@@ -149,7 +149,7 @@ export default function Team() {
             <div className="absolute bottom-24 text-white bg-indigo-600 p-2 rounded-full">
               <IoMdAdd />
             </div>
-            <div className="hidden group-hover:flex flex-row absolute bottom-24 gap-3">
+            <div className="hidden transition ease-linear delay-300 duration-700 group-hover:flex flex-row absolute bottom-24 gap-3">
               <div className=" text-indigo-600 bg-white p-2 rounded-full">
                 <FaInstagram />
               </div>
@@ -167,7 +167,7 @@ export default function Team() {
               </div>
             </div>
 
-            <div className="text-center  border-t-2  flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
+            <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
               <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
                 Karthik B.K
               </h1>
@@ -187,7 +187,7 @@ export default function Team() {
             <div className="absolute bottom-24 text-white bg-indigo-600 p-2 rounded-full">
               <IoMdAdd />
             </div>
-            <div className="hidden group-hover:flex flex-row absolute bottom-24 gap-3">
+            <div className="hidden transition ease-linear delay-300 duration-700 group-hover:flex flex-row absolute bottom-24 gap-3">
               <div className=" text-indigo-600 bg-white p-2 rounded-full">
                 <FaInstagram />
               </div>
@@ -204,7 +204,7 @@ export default function Team() {
                 <FaXTwitter />
               </div>
             </div>
-            <div className="text-center  border-t-2  flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
+            <div className="text-center  border-t-2 transition ease-linear delay-100 duration-700 flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
               <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
                 Sumit Kumar
               </h1>

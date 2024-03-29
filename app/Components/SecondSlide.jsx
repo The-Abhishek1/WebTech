@@ -10,7 +10,7 @@ import photo3 from "@/publicweb-maintenance.png";
 //Main Function
 export default function SecondSlide() {
   return (
-    <div className="relative bg-cyan-50 border-t-[1px] border-gray-200 w-full flex lg:flex-row flex-col items-center gap-4 justify-around p-4 py-8">
+    <div className="relative transition-all delay-500 ease-linear duration-700 bg-cyan-50 border-t-[1px] border-gray-200 w-full flex lg:flex-row flex-col items-center gap-4 justify-around p-4 py-8">
       <div className="relative top-[40px]">
         <Image
           alt="First"

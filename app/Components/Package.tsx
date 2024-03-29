@@ -21,7 +21,7 @@ export default function Package() {
       </div>
       <div className="flex flex-row flex-wrap justify-around gap-10">
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
-          <div className="flex flex-col gap-3 bg-indigo-950 group-hover:bg-blue-500 text-white p-5 rounded-lg">
+          <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-[20px] mmd:text-[16px]">
                 Silver Package
@@ -68,7 +68,7 @@ export default function Package() {
                 </p>
               </div>
             </div>
-            <div className="p-2 self-center cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
+            <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
               <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
                 Purchase Now
               </button>
@@ -77,7 +77,7 @@ export default function Package() {
           </div>
         </div>
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
-          <div className="flex flex-col gap-3 bg-indigo-950 group-hover:bg-blue-500 text-white p-5 rounded-lg">
+          <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-[20px] mmd:text-[16px]">
                 Gold Package
@@ -124,7 +124,7 @@ export default function Package() {
                 </p>
               </div>
             </div>
-            <div className="p-2 self-center cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
+            <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
               <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
                 Purchase Now
               </button>
@@ -133,7 +133,7 @@ export default function Package() {
           </div>
         </div>
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
-          <div className="flex flex-col gap-3 bg-indigo-950 group-hover:bg-blue-500 text-white p-5 rounded-lg">
+          <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-[20px] mmd:text-[16px]">
                 Platinum Package
@@ -180,7 +180,7 @@ export default function Package() {
                 </p>
               </div>
             </div>
-            <div className="p-2 self-center cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
+            <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
               <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
                 Purchase Now
               </button>

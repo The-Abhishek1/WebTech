@@ -38,7 +38,7 @@ export default function Services() {
       <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 ">
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  p-4 group w-[250px] rounded-sm">
           <Image alt="" src={app} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -53,7 +53,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex transition delay-150 duration-500 ease-linear flex-row items-center group-hover:text-white group-hover:underline  text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
@@ -62,7 +62,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={business} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -77,7 +77,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
@@ -86,7 +86,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group  w-[250px] rounded-sm">
           <Image alt="" src={services} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -101,7 +101,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
@@ -110,7 +110,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={design} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -125,7 +125,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
@@ -134,7 +134,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={promote} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -149,7 +149,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
@@ -158,7 +158,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
           <Image alt="" src={website} className="w-[90%]" />
-          <div className="flex flex-col items-center gap-2 group-hover:bg-indigo-600 group-hover:text-white w-full">
+          <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">
             <div className="mt-[-50px]">
               <Image
                 alt=""
@@ -173,7 +173,7 @@ export default function Services() {
                 </h1>
                 <p className="text-[15px] msm:text-[13px]">Some Dummy Data</p>
               </div>
-              <div className="flex flex-row items-center group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
                 <p className="msmm:text-[13px]">Read More</p>
                 <FaArrowRightLong />
               </div>
