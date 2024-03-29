@@ -16,14 +16,14 @@ import {
   FaLocationDot,
 } from "react-icons/fa6";
 import Image from "next/image";
-import logo from "@/publicColor logo - no background.png";
+import logo from "@/public177975028_padded_logo.png";
 import post from "@/publiccustomer-service.png";
 //Main Function
 export default function Footer() {
   return (
     <div className="flex flex-col bg-indigo-900 p-6 text-white gap-10">
       <div className="flex flex-row gap-2 justify-center items-center">
-        <Image src={logo} alt="logo" className="h-[50px] w-[50px]" />
+        <Image src={logo} alt="logo" className="h-[40px] w-[40px] rounded-md" />
         <h1 className="text-[30px] font-bold mmd:text-[20px]">Ablaze Nova</h1>
       </div>
       <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
@@ -190,7 +190,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-row gap-3 msmm:gap-1 items-center mmd:text-[13px]  msmm:text-[11px]">
           <h4 className="border-r-2 pr-2">Terms & Condition</h4>
-          <h4 className="border-r-2 pr-2">Carees</h4>
+          <h4 className="border-r-2 pr-2">Careers</h4>
           <h4>Privacy Policy</h4>
         </div>
       </div>
