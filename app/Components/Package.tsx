@@ -80,7 +80,7 @@ export default function Package() {
           <div className="flex flex-col gap-3 bg-indigo-950 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-[20px] mmd:text-[16px]">
-                Silver Package
+                Gold Package
               </h1>
               <p className="text-[15px] mmd:text-[13px]">
                 Pricing plan for IT Solution company
@@ -136,7 +136,7 @@ export default function Package() {
           <div className="flex flex-col gap-3 bg-indigo-950 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-[20px] mmd:text-[16px]">
-                Silver Package
+                Platinum Package
               </h1>
               <p className="text-[15px] mmd:text-[13px]">
                 Pricing plan for IT Solution company
