@@ -84,7 +84,7 @@ export default function Header() {
               placeholder="Search..."
             />
           </div>
-          <ul className="flex flex-col p-4 gap-2 mt-4 font-medium border border-gray-100 rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
+          <ul className="flex flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
               <a
                 href="#"
@@ -97,7 +97,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
+                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 About Us
               </a>
@@ -105,7 +105,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Services
               </a>
@@ -113,7 +113,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Pages
               </a>
@@ -121,7 +121,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Contact
               </a>
@@ -134,15 +134,15 @@ export default function Header() {
           <div className="relative mt-3">
             <input
               type="text"
-              className="block text-[15px] msm:text-[13px] outline-none w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block text-[15px] msm:text-[13px] outline-none w-full p-2 ps-10 text-sm  border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Search..."
             />
           </div>
-          <ul className="flex flex-col p-4 gap-2 mt-4 font-medium border border-gray-100 rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
+          <ul className="flex flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
               <a
                 href="#"
-                className="block  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
+                className="block hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
                 aria-current="page"
               >
                 Home
@@ -151,7 +151,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
+                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 About Us
               </a>
@@ -159,7 +159,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-gray-900 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+                className="block text-[15px] hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Services
               </a>
