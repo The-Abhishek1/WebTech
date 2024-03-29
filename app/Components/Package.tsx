@@ -87,7 +87,7 @@ export default function Package() {
               </p>
             </div>
             <div className="flex flez-row items-center gap-1">
-              <h1 className="font-bold text-[27px] mmd:text-[22px]">$199.00</h1>
+              <h1 className="font-bold text-[27px] mmd:text-[22px]">$299.00</h1>
               <h4 className="text-[14px] mmd:text-[11px]">/Per Month</h4>
             </div>
           </div>
@@ -143,7 +143,7 @@ export default function Package() {
               </p>
             </div>
             <div className="flex flez-row items-center gap-1">
-              <h1 className="font-bold text-[27px] mmd:text-[22px]">$199.00</h1>
+              <h1 className="font-bold text-[27px] mmd:text-[22px]">$599.00</h1>
               <h4 className="text-[14px] mmd:text-[11px]">/Per Month</h4>
             </div>
           </div>
