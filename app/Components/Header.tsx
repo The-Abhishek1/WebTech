@@ -76,7 +76,7 @@ export default function Header() {
         </div>
       </div>
       {showMenu ? (
-        <div className="items-center lg:hidden justify-between absolute top-20 right-4">
+        <div className="items-center text-white lg:hidden justify-between absolute top-20 right-4">
           <div className="relative mt-3">
             <input
               type="text"
@@ -130,7 +130,7 @@ export default function Header() {
         </div>
       ) : null}
       {showSearch ? (
-        <div className="items-center lg:hidden justify-between absolute top-20 right-4">
+        <div className="items-center text-white lg:hidden justify-between absolute top-20 right-4">
           <div className="relative mt-3">
             <input
               type="text"
