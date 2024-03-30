@@ -54,7 +54,7 @@ export default function Services() {
       {Services.map((service, index) => (
         <div
           key={index}
-          className="flex transition delay-150 duration-300 ease-linear flex-col gap-2 relative items-center justify-center  p-4 bg-white hover:bg-indigo-600 rounded-md hover:text-white w-[250px]"
+          className="flex transition delay-150 duration-300 ease-linear flex-col gap-2 relative items-center justify-center  p-4 bg-white group  hover:bg-indigo-600 rounded-md hover:text-white w-[250px]"
         >
           <Image alt="" src={service.image} className="w-[70%] h-[150px]" />
           <div className="flex flex-col items-center gap-2  w-full">
@@ -75,7 +75,9 @@ export default function Services() {
                 </p>
               </div>
               <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
+                <p className="msmm:text-[13px] group-hover:text-white">
+                  Read More
+                </p>
                 <FaArrowRightLong />
               </div>
             </div>

@@ -11,6 +11,7 @@ import services from "@/publicsoftwareservice.png";
 import app from "@/publiccoding.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/navigation";
 
 //Main Function
 export default function Services() {
@@ -18,6 +19,8 @@ export default function Services() {
   useEffect(() => {
     AOS.init();
   });
+
+  const router = useRouter();
   return (
     <div className="flex cursor-pointer flex-col gap-5 bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
       <div
@@ -40,7 +43,12 @@ export default function Services() {
           </h1>
         </div>
 
-        <div className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 shadow-lg shadow-blue-400 text-white w-[200px]">
+        <div
+          onClick={() => {
+            router.push("services");
+          }}
+          className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 shadow-lg shadow-blue-400 text-white w-[200px]"
+        >
           <button className="uppercase font-bold text-[13px]">
             View all services
           </button>
@@ -58,7 +66,12 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <div
+              onClick={() => {
+                router.push("services/webdevelopment");
+              }}
+              className="flex flex-col items-center gap-2"
+            >
               <div className="flex flex-col items-center gap-2">
                 <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
                   Web Developement

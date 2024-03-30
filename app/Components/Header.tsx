@@ -14,9 +14,11 @@ import { GoGoal } from "react-icons/go";
 import { IoMdClose } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/navigation";
 
 //Main Function
 export default function Header() {
+  const router = useRouter();
   useEffect(() => {
     AOS.init();
   });
@@ -79,7 +81,6 @@ export default function Header() {
           className="bg-white flex flex-col items-center overflow-hidden relative  p-4 msm:p-3  rounded-full cursor-pointer"
         >
           <MdOutlineShoppingCart />
-          <div className="bg-red-600 animate-ping  top-0 w-full h-full rounded-full absolute"></div>
         </div>
 
         <div
@@ -104,45 +105,60 @@ export default function Header() {
           </div>
           <ul className="flex flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
-              <a
-                href="#"
-                className="block text-[15px] msm:text-[13px] py-2 px-3 text-white bg-blue-700 rounded "
+              <p
+                onClick={() => {
+                  router.push("/");
+                  setShowMenu(false);
+                }}
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
                 aria-current="page"
               >
                 Home
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
+              <p
+                onClick={() => {
+                  router.push("aboutus");
+                  setShowMenu(false);
+                }}
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 About Us
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+              <p
+                onClick={() => {
+                  router.push("services");
+                  setShowMenu(false);
+                }}
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Services
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+              <p
+                onClick={() => {
+                  router.push("pages");
+                  setShowMenu(false);
+                }}
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Pages
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+              <p
+                onClick={() => {
+                  router.push("contact");
+                  setShowMenu(false);
+                }}
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Contact
-              </a>
+              </p>
             </li>
           </ul>
         </div>
@@ -156,31 +172,24 @@ export default function Header() {
               placeholder="Search..."
             />
           </div>
-          <ul className="flex flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
+          <ul className="flex cursor-pointer flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
+              <p
+                className="block cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
                 aria-current="page"
               >
                 Web development
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
-              >
+              <p className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700">
                 Software Services
-              </a>
+              </p>
             </li>
             <li>
-              <a
-                href="#"
-                className="block text-[15px] hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
-              >
+              <p className="block text-[15px] cursor-pointer hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">
                 Bussiness Analysis
-              </a>
+              </p>
             </li>
           </ul>
         </div>
