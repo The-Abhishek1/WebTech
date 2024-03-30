@@ -2,11 +2,15 @@ import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
+  content: 
+    [
+    
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",  
   ],
+   
+  
   theme: {
     screens: {
       //Max-width
@@ -39,7 +43,8 @@ const config: Config = {
     extend: {
    
     },
+    
   },
-  plugins: [],
+ 
 };
 export default config;

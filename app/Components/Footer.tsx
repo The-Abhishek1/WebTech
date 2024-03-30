@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { IoCallSharp, IoMail } from "react-icons/io5";
 import {
   FaAngleRight,
@@ -18,15 +19,28 @@ import {
 import Image from "next/image";
 import logo from "@/publiclogo.png";
 import post from "@/publiccustomer-service.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 //Main Function
 export default function Footer() {
+  //UseEffect for scroll animation
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="flex flex-col bg-indigo-900 p-6 text-white gap-10">
-      <div className="flex flex-row gap-2 justify-center items-center">
+      <div
+        data-aos="fade-up"
+        className="flex flex-row gap-2 justify-center items-center"
+      >
         <Image src={logo} alt="logo" className="h-[40px] w-[40px] rounded-md" />
         <h1 className="text-[30px] font-bold mmd:text-[20px]">Ablaze Nova</h1>
       </div>
-      <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
+      <div
+        data-aos="fade-up"
+        className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around"
+      >
         <div className="flex flex-row items-center gap-3">
           <div className="bg-white p-4 mlg:p-2 text-indigo-600 rounded-md shadow-md shadow-slate-300 cursor-pointer">
             <IoCallSharp size={30} />
@@ -61,7 +75,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-evenly gap-4 msm:gap-8">
+      <div
+        data-aos="fade-up"
+        className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-evenly gap-4 msm:gap-8"
+      >
         <div className="flex flex-col gap-5">
           <h1 className="text-center uppercase font-bold text-[20px] mmd:text-[15px]">
             About Company
@@ -178,7 +195,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col mlg:items-center justify-around bg-indigo-950 p-4 py-6 gap-2">
+      <div
+        data-aos="fade-up"
+        className="flex lg:flex-row flex-col mlg:items-center justify-around bg-indigo-950 p-4 py-6 gap-2"
+      >
         <div className="flex flex-row gap-2 msmm:flex-col items-center mmd:text-[13px] msmm:text-[11px]">
           <div className="flex flex-row items-center gap-2 ">
             <h4>Copyright</h4>

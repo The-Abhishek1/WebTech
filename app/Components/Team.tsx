@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { BsMotherboard } from "react-icons/bs";
 import { IoMdAdd, IoLogoLinkedin } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
@@ -9,12 +10,21 @@ import karthi from "@/publickarthi.jpg";
 import bhuvanesh from "@/publicbhuvanesh.jpg";
 import sumit from "@/publicsumit.jpg";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function Team() {
+  //UseEffect
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="flex cursor-pointer flex-col gap-5 items-center bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
-      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
+      <div
+        data-aos="fade-up"
+        className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
+      >
         <div className="flex flex-col items-center justify-center gap-2">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
@@ -26,7 +36,10 @@ export default function Team() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 ">
+      <div
+        data-aos="fade-up"
+        className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 "
+      >
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  group w-[250px] rounded-sm">
           <Image
             alt=""

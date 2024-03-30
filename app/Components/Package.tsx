@@ -1,13 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { FaCircleCheck } from "react-icons/fa6";
 import { BsMotherboard } from "react-icons/bs";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function Package() {
+  //UseEffect for scroll animation
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="flex bg-slate-100 flex-col items-center gap-7 py-10 px-5">
-      <div className="flex flex-col items-center gap-3">
+      <div data-aos="fade-up" className="flex flex-col items-center gap-3">
         <div className="flex flex-row items-center gap-3 text-indigo-600">
           <BsMotherboard size={30} />
           <h3 className="uppercase text-[18px] msm:text-[15px]">Our Pricing</h3>
@@ -19,7 +26,10 @@ export default function Package() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap justify-around gap-10">
+      <div
+        data-aos="fade-up"
+        className="flex flex-row flex-wrap justify-around gap-10"
+      >
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
           <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">

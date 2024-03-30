@@ -1,19 +1,25 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsMotherboard } from "react-icons/bs";
 import { FaMinus } from "react-icons/fa6";
 import { IoMdAdd } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function FAQ() {
+  //UseEffect for scroll animation
+  useEffect(() => {
+    AOS.init();
+  });
   const [firstshow, setfFirstShow] = useState(false);
   const [secondtshow, setfSecondShow] = useState(false);
   const [thirdhow, setThirdShow] = useState(false);
 
   return (
     <div className="p-6 bg-slate-200 flex flex-col items-center gap-5">
-      <div className="flex flex-col items-center">
+      <div data-aos="fade-up" className="flex flex-col items-center">
         <div className="flex flex-row items-center gap-3 text-indigo-600 ">
           <BsMotherboard size={30} />
           <h3 className="uppercase text-[18px] msm:text-[15px]">
@@ -25,7 +31,10 @@ export default function FAQ() {
           <h1 className="text-center text-blue-600 font-normal">Question?</h1>
         </div>
       </div>
-      <div className="flex flex-col  items-center w-full gap-3">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col  items-center w-full gap-3"
+      >
         <div className="flex flex-col gap-3 items-center bg-indigo-50 w-[80%] rounded-md">
           <div
             style={{ backgroundColor: "black", color: "white" }}

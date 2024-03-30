@@ -1,14 +1,24 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { BsMotherboard } from "react-icons/bs";
 import web from "@/publicgraphic-tablet.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function FourthSlide() {
+  //UseEffect
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="mlg:flex-col flex flex-row justify-around  px-10 py-5 lg:gap-10 bg-cyan-50 ">
-      <div className="flex flex-col justify-center gap-3 lg:w-[600px]">
-        <div className="flex flex-row gap-2 text-blue-5 uppercase mlg:justify-center">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col justify-center gap-3 lg:w-[600px]"
+      >
+        <div className="flex text-blue-600 flex-row gap-2 text-blue-5 uppercase mlg:justify-center">
           <BsMotherboard size={30} />
           <h5>Great IT Skills</h5>
         </div>
@@ -66,7 +76,7 @@ export default function FourthSlide() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center">
+      <div data-aos="fade-up" className="flex items-center justify-center">
         <Image
           src={web}
           alt=""

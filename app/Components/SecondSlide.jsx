@@ -1,24 +1,35 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { BsMotherboard } from "react-icons/bs";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { ImCheckboxChecked } from "react-icons/im";
 import photo1 from "@/publicdesign.png";
 import photo2 from "@/publicapi.png";
 import photo3 from "@/publicweb-maintenance.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function SecondSlide() {
+  //UseEffect for AOS
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <div className="relative transition-all delay-500 ease-linear duration-700 bg-cyan-50 border-t-[1px] border-gray-200 w-full flex lg:flex-row flex-col items-center gap-4 justify-around p-4 py-8">
-      <div className="relative top-[40px]">
+      <div data-aos="fade-up" className="relative top-[40px]">
         <Image
           alt="First"
           src={photo1}
           className="animate-bounce h-auto cursor-progress msm:max-h-[250px] msm:max-w-[250px] msmm:max-h-[200px] msmm:max-w[120px] mxl:w-[400px] msmm:mt-[-20px]"
         />
       </div>
-      <div className="flex flex-col sm:w-[500px] msm:px-3 gap-5">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col sm:w-[500px] msm:px-3 gap-5"
+      >
         <div className="flex flex-row items-center justify-center gap-3  text-blue-600">
           <BsMotherboard size={30} />
           <h3 className="text-[18px] mmd:text-[15px]">

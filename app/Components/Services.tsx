@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { BsMotherboard } from "react-icons/bs";
 import { FaArrowRightLong } from "react-icons/fa6";
 import promote from "@/publicpromote.png";
@@ -8,12 +9,21 @@ import website from "@/publicapp-development.png";
 import business from "@/publicdata-analysis.png";
 import services from "@/publicsoftwareservice.png";
 import app from "@/publiccoding.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Main Function
 export default function Services() {
+  //UseEffect
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="flex cursor-pointer flex-col gap-5 bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
-      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-center">
+      <div
+        data-aos="fade-up"
+        className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-center"
+      >
         <div className="flex flex-col gap-2 items-center">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
@@ -35,7 +45,10 @@ export default function Services() {
           <FaArrowRightLong />
         </div>
       </div>
-      <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 ">
+      <div
+        data-aos="fade-up"
+        className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 "
+      >
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  p-4 group w-[250px] rounded-sm">
           <Image alt="" src={app} className="w-[90%]" />
           <div className="flex flex-col items-center gap-2 transition delay-150 duration-500 ease-linear group-hover:bg-indigo-600 group-hover:text-white w-full">

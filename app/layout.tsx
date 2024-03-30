@@ -4,7 +4,6 @@ import "./globals.css";
 import TopLinks from "./Components/TopLinks";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="./favicon.ico" sizes="any" />
+      <head>
+        <link rel="icon" href="./favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <TopLinks />
         <Header />

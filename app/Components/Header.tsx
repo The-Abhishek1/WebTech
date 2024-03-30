@@ -1,7 +1,7 @@
 "use client";
 //Importing Necessary Files
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "@/public177975028_padded_logo.png";
 import {
   MdOutlineKeyboardArrowDown,
@@ -12,8 +12,14 @@ import { IoSearchOutline } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { GoGoal } from "react-icons/go";
 import { IoMdClose } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 //Main Function
 export default function Header() {
+  useEffect(() => {
+    AOS.init();
+  });
   //State to show menu bar
   const [showMenu, setShowMenu] = useState(false);
   //State to show searchBar
@@ -73,7 +79,7 @@ export default function Header() {
           className="bg-white flex flex-col items-center overflow-hidden relative  p-4 msm:p-3  rounded-full cursor-pointer"
         >
           <MdOutlineShoppingCart />
-          <div className="bg-red-600 animate-ping text-white text-[6px] w-full h-full rounded-full absolute right-2 top-1"></div>
+          <div className="bg-red-600 animate-ping  top-0 w-full h-full rounded-full absolute"></div>
         </div>
 
         <div
@@ -88,7 +94,10 @@ export default function Header() {
         </div>
       </div>
       {showMenu ? (
-        <div className="transition ease-linear delay-500 duration-700 items-center text-white lg:hidden justify-between absolute top-20 right-4">
+        <div
+          data-aos="fade-left"
+          className="items-center text-white lg:hidden justify-between absolute top-20 right-4"
+        >
           <div className="relative mt-3">
             <input
               type="text"
@@ -142,7 +151,10 @@ export default function Header() {
         </div>
       ) : null}
       {showSearch ? (
-        <div className="items-center text-white justify-between absolute top-20 right-4">
+        <div
+          data-aos="fade-left"
+          className="items-center text-white justify-between absolute top-20 right-4"
+        >
           <div className="relative mt-3">
             <input
               type="text"
@@ -180,7 +192,10 @@ export default function Header() {
         </div>
       ) : null}
       {showCart ? (
-        <div className="flex flex-col gap-6 p-4 sm:top-24 rounded-md text-white absolute top-20 right-4  bg-gray-800">
+        <div
+          data-aos="fade-left"
+          className="flex flex-col gap-6 p-4 sm:top-24 rounded-md text-white absolute top-20 right-4  bg-gray-800"
+        >
           <div className="flex flex-col gap-10">
             <div className="flex gap-24 flex-row items-center justify-between">
               <h1 className="uppercase text-[15px] font-bold">Shopping cart</h1>
