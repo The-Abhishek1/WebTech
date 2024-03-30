@@ -18,12 +18,13 @@ export default function SecondSlide() {
   });
 
   return (
-    <div className="relative bg-slate-200  border-t-[1px] border-gray-200 w-full flex lg:flex-row flex-col items-center gap-4 justify-around p-4 py-8">
+    <div className="flex  bg-slate-200 flex-row items-center justify-around p-4 py-8 msm:pb-0 msm:flex-col-reverse gap-4">
       <div className="relative">
         <Image
           alt="First"
           src={photo1}
-          className="h-auto cursor-progress msm:max-h-[250px] msm:max-w-[250px] msmm:max-h-[200px] msmm:max-w[120px] mxl:w-[400px] msmm:mt-[-20px]"
+          className="aspect-square[2/1] max-h-[450px] mlg:max-h-[250px] mlg:max-w-[250px] msmm:max-h-[200px] msmm:max-w[150px] mxl:w-[400px]
+          transition ease-in-out delay-200 cursor-progress hover:-translate-y-1 hover:scale-95 duration-500"
         />
       </div>
       <div className="flex flex-col sm:w-[500px] msm:px-3 gap-5">
@@ -33,7 +34,7 @@ export default function SecondSlide() {
             About WebTech IT Solutions
           </h3>
         </div>
-        <div className="text-[30px] mlg:text-[16px] font-bold text-center">
+        <div className="text-[20px] mlg:text-[16px] font-bold text-center">
           Preparing for your business provide best
           <p className="inline text-blue-600"> IT Solution</p>
         </div>

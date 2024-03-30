@@ -19,7 +19,7 @@ export default function Package() {
           <BsMotherboard size={30} />
           <h3 className="uppercase text-[18px] msm:text-[15px]">Our Pricing</h3>
         </div>
-        <div className="flex flex-row gap-2 font-bold text-[30px] msm:text-[20px]">
+        <div className="flex flex-row gap-2 font-bold text-[20px] msm:text-[20px]">
           <h1 className="text-center">Popular Pricing </h1>
           <h1 className="text-center inline text-blue-600 font-normal">
             Package

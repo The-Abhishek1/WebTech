@@ -14,7 +14,7 @@ export default function FirstSlide() {
   });
   return (
     <div className="bg-slate-200">
-      <div className=" flex flex-row items-center justify-around p-4 py-8 mlg:flex-col-reverse gap-4">
+      <div className=" flex flex-row items-center justify-around p-4 py-8 msm:flex-col-reverse gap-4">
         <div className="flex flex-col w-[450px] items-center justify-around smm:ml-10 gap-4 mlg:w-[350px] msmm:w-[250px]">
           <h2 className="text-[40px] font-bold transition ease-in-out duration-700 delay-700 mlg:text-[25px]">
             Welcome

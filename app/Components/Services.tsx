@@ -27,12 +27,14 @@ export default function Services() {
         <div className="flex flex-col gap-2 items-center">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
-            <h3 className="text-[18px] text-center uppercase">What we do</h3>
+            <h3 className="text-[18px] text-center uppercase mlg:text-[14px]">
+              What we do
+            </h3>
           </div>
-          <h1 className="text-[30px] font-bold mlg:text-[20px]">
+          <h1 className="text-[20px] font-bold mlg:text-[20px] text-center">
             We Provide Exclusive
           </h1>
-          <h1 className="text-[30px] text-center font-bold mlg:text-[20px]">
+          <h1 className="text-[20px] text-center font-bold mlg:text-[20px]">
             Service For
             <p className="font-normal inline text-blue-600 "> Your Business</p>
           </h1>

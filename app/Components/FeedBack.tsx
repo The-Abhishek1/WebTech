@@ -89,7 +89,7 @@ export default function ProgressSlider() {
         data-aos="fade-up"
         className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
       >
-        <div className="flex flex-col items-center justify-center gap-1">
+        <div className="flex flex-col items-center justify-center gap-2">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
             <h3 className="text-[18px] uppercase mxl:text-[15px]">
