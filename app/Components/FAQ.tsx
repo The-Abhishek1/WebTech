@@ -22,11 +22,11 @@ export default function FAQ() {
       <div data-aos="fade-up" className="flex flex-col items-center">
         <div className="flex flex-row items-center gap-3 text-indigo-600 ">
           <BsMotherboard size={30} />
-          <h3 className="uppercase text-[18px] msm:text-[15px]">
+          <h3 className="uppercase text-[18px] mxl:text-[15px]">
             frequently ask question
           </h3>
         </div>
-        <div className="flex flex-col gap-1 font-bold text-[30px] msm:text-[20px]">
+        <div className="flex flex-col gap-1 font-bold text-[30px] mxl:text-[20px]">
           <h1 className="text-center">Talk To About Any</h1>
           <h1 className="text-center text-blue-600 font-normal">Question?</h1>
         </div>

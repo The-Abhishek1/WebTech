@@ -20,7 +20,7 @@ export default function Team() {
     AOS.init();
   });
   return (
-    <div className="flex cursor-pointer flex-col gap-5 items-center bg-cyan-50 border-t-2 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
+    <div className="flex cursor-pointer flex-col gap-5 items-center bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
       <div
         data-aos="fade-up"
         className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
@@ -30,16 +30,13 @@ export default function Team() {
             <BsMotherboard size={30} />
             <h3 className="text-[18px] uppercase">Great Team</h3>
           </div>
-          <h1 className="text-[30px] text-center font-bold msm:text-[20px]">
+          <h1 className="text-[30px] text-center font-bold mxl:text-[20px]">
             See Our Skilled Expert
             <p className="font-normal inline text-blue-600 "> Team</p>
           </h1>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mmd:p-2 "
-      >
+      <div className="flex flex-row flex-wrap lg:mx-20 items-center justify-center gap-4 p-4 mxl:p-2 ">
         <div className="flex flex-col gap-2 relative items-center bg-white justify-center  group w-[250px] rounded-sm">
           <Image
             alt=""
@@ -68,7 +65,7 @@ export default function Team() {
               </div>
             </div>
             <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
-              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
+              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold mxl:text-[15px] uppercase">
                 Abhishek N
               </h1>
               <p className="text-[13px] mb-2 group-hover:text-white text-indigo-600 uppercase">
@@ -106,7 +103,7 @@ export default function Team() {
               </div>
             </div>
             <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
-              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
+              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold mxl:text-[15px] uppercase">
                 Bhuvanesh
               </h1>
               <p className="text-[13px] mb-2 group-hover:text-white text-indigo-600 uppercase">
@@ -143,7 +140,7 @@ export default function Team() {
               </div>
             </div>
             <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
-              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
+              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold mxl:text-[15px] uppercase">
                 Nandish
               </h1>
               <p className="text-[13px] mb-2 group-hover:text-white text-indigo-600 uppercase">
@@ -181,7 +178,7 @@ export default function Team() {
             </div>
 
             <div className="text-center  border-t-2  flex flex-col gap-3 transition ease-linear delay-100 duration-700 group-hover:bg-indigo-600 w-full">
-              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
+              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold mxl:text-[15px] uppercase">
                 Karthik B.K
               </h1>
               <p className="text-[13px] mb-2 group-hover:text-white text-indigo-600 uppercase">
@@ -218,7 +215,7 @@ export default function Team() {
               </div>
             </div>
             <div className="text-center  border-t-2 transition ease-linear delay-100 duration-700 flex flex-col gap-3 group-hover:bg-indigo-600 w-full">
-              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold msm:text-[15px] uppercase">
+              <h1 className="text-[18px] mt-2 group-hover:text-white font-bold mxl:text-[15px] uppercase">
                 Sumit Kumar
               </h1>
               <p className="text-[13px] mb-2 group-hover:text-white text-indigo-600 uppercase">

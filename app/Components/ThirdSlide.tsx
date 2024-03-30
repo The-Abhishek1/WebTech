@@ -14,7 +14,7 @@ export default function ThirdSlide() {
     AOS.init();
   });
   return (
-    <div className="msm:grid border-b-[1px] bg-cyan-50 border-gray-300 border-t-[1px] msm:grid-cols-2  flex flex-row flex-wrap items-center justify-around p-5 py-10 gap-10 transition-all dealy-[300ms] duration-[600ms] toas:translate-y-[100%] toas:invisible">
+    <div className="msm:grid border-b-[1px] bg-slate-200  msm:grid-cols-2  flex flex-row flex-wrap items-center justify-around p-5 py-10 gap-10 transition-all dealy-[300ms] duration-[600ms] toas:translate-y-[100%] toas:invisible">
       <div
         data-aos="fade-up"
         className="flex flex-col items-center justify-center gap-2"

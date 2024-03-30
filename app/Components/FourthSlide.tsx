@@ -13,7 +13,7 @@ export default function FourthSlide() {
     AOS.init();
   });
   return (
-    <div className="mlg:flex-col flex flex-row justify-around  px-10 py-5 lg:gap-10 bg-cyan-50 ">
+    <div className="mlg:flex-col flex flex-row justify-around  px-10 py-5 lg:gap-10 bg-slate-200 ">
       <div
         data-aos="fade-up"
         className="flex flex-col justify-center gap-3 lg:w-[600px]"
@@ -22,7 +22,7 @@ export default function FourthSlide() {
           <BsMotherboard size={30} />
           <h5>Great IT Skills</h5>
         </div>
-        <div className="flex flex-col font-bold text-[30px] mmd:text-[20px] mlg:items-center">
+        <div className="flex flex-col font-bold text-[30px] mxl:text-[20px] mlg:items-center">
           <h1 className="mlg:text-center">More Than 20+ Years Experience</h1>
           <h1>
             We Provide
@@ -30,7 +30,7 @@ export default function FourthSlide() {
           </h1>
         </div>
         <div>
-          <p className="mmd:text-[13px]">
+          <p className="mxl:text-[13px]">
             Collaboratively envisioneer user friendly supply chains and cross
             unit imperative. Authoritativel fabricate competitive resource and
             holistic. Holisticly restore real time resources whereas
@@ -76,7 +76,7 @@ export default function FourthSlide() {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" className="flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <Image
           src={web}
           alt=""

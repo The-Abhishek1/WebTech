@@ -84,7 +84,7 @@ export default function ProgressSlider() {
     AOS.init();
   });
   return (
-    <div className="flex flex-col items-center bg-cyan-50 border-2 px-2 py-8 gap-2">
+    <div className="flex flex-col items-center bg-slate-200 border-2 px-2 py-8 gap-2">
       <div
         data-aos="fade-up"
         className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
@@ -92,12 +92,14 @@ export default function ProgressSlider() {
         <div className="flex flex-col items-center justify-center gap-1">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
-            <h3 className="text-[18px] uppercase">Customer FeedBack</h3>
+            <h3 className="text-[18px] uppercase mxl:text-[15px]">
+              Customer FeedBack
+            </h3>
           </div>
-          <h1 className="text-[30px] text-center font-bold msm:text-[20px]">
+          <h1 className="text-[30px] text-center font-bold mxl:text-[20px]">
             What Happy Clients Says
           </h1>
-          <p className="font-normal inline text-blue-600 text-[30px] text-center  msm:text-[20px]">
+          <p className="font-normal inline text-blue-600 text-[30px] text-center  mxl:text-[20px]">
             About Us?
           </p>
         </div>
@@ -118,7 +120,7 @@ export default function ProgressSlider() {
                 leaveTo="opacity-0 scale-95"
                 beforeEnter={() => heightFix()}
               >
-                <div className="flex flex-row msm:flex-col md:mx-20 m-5 p-4 bg-white gap-4  items-center">
+                <div className="flex flex-row mxl:flex-col md:mx-20 m-5 p-4 bg-white gap-4  items-center">
                   <div className="relative lg:w-[400px] max-w-[200px] bg-slate-200 rounded-lg p-3 h-[100px] flex flex-col items-center justify-center">
                     <Image
                       className="rounded-xl h-[100px] w-200px"
@@ -133,9 +135,9 @@ export default function ProgressSlider() {
                     <div className="p-2">
                       <p className="text-[13px] text-center">{item.feed}</p>
                     </div>
-                    <div className="flex flex-row mmd:flex-col-reverse mmd:items-center border-t-2 p-2 mmd:gap-2 mmd:py-4 items-center justify-between">
+                    <div className="flex flex-row mxl:flex-col-reverse mxl:items-center border-t-2 p-2 mxl:gap-2 mxl:py-4 items-center justify-between">
                       <div className="flex flex-col md:items-start">
-                        <h1 className="font-bold text-[20px] mmd:text-[16px]">
+                        <h1 className="font-bold text-[20px] mxl:text-[16px]">
                           {item.desc}
                         </h1>
                         <h3 className="text-[13px]">{item.position}</h3>
@@ -155,10 +157,7 @@ export default function ProgressSlider() {
           </div>
         </div>
         {/* Buttons */}
-        <div
-          data-aos="fade-up"
-          className="max-w-xs sm:max-w-sm md:max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mt-8"
-        >
+        <div className="max-w-xs sm:max-w-sm md:max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
           {items.map((item, index) => (
             <button
               key={index}

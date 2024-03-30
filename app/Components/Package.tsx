@@ -33,53 +33,53 @@ export default function Package() {
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
           <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
-              <h1 className="font-bold text-[20px] mmd:text-[16px]">
+              <h1 className="font-bold text-[20px] mxl:text-[16px]">
                 Silver Package
               </h1>
-              <p className="text-[15px] mmd:text-[13px]">
+              <p className="text-[15px] mxl:text-[13px]">
                 Pricing plan for IT Solution company
               </p>
             </div>
             <div className="flex flez-row items-center gap-1">
-              <h1 className="font-bold text-[27px] mmd:text-[22px]">$199.00</h1>
-              <h4 className="text-[14px] mmd:text-[11px]">/Per Month</h4>
+              <h1 className="font-bold text-[27px] mxl:text-[22px]">$199.00</h1>
+              <h4 className="text-[14px] mxl:text-[11px]">/Per Month</h4>
             </div>
           </div>
           <div className="gap-3 flex flex-col pb-5">
             <div className="flex flex-col gap-3 p-5">
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   30 Days Trial Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Unlimited Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Multi-Language Content
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="gray" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Data Backup and recovery
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="gray" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Synced To Cloud Database
                 </p>
               </div>
             </div>
             <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
-              <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
+              <button className="uppercase font-bold text-[13px] mxl:text-[13px]">
                 Purchase Now
               </button>
               <FaLongArrowAltRight />
@@ -89,53 +89,53 @@ export default function Package() {
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
           <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
-              <h1 className="font-bold text-[20px] mmd:text-[16px]">
+              <h1 className="font-bold text-[20px] mxl:text-[16px]">
                 Gold Package
               </h1>
-              <p className="text-[15px] mmd:text-[13px]">
+              <p className="text-[15px] mxl:text-[13px]">
                 Pricing plan for IT Solution company
               </p>
             </div>
             <div className="flex flez-row items-center gap-1">
-              <h1 className="font-bold text-[27px] mmd:text-[22px]">$299.00</h1>
-              <h4 className="text-[14px] mmd:text-[11px]">/Per Month</h4>
+              <h1 className="font-bold text-[27px] mxl:text-[22px]">$299.00</h1>
+              <h4 className="text-[14px] mxl:text-[11px]">/Per Month</h4>
             </div>
           </div>
           <div className="gap-3 flex flex-col pb-5">
             <div className="flex flex-col gap-3 p-5">
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   30 Days Trial Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Unlimited Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Multi-Language Content
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Data Backup and recovery
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="gray" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Synced To Cloud Database
                 </p>
               </div>
             </div>
             <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
-              <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
+              <button className="uppercase font-bold text-[13px] mxl:text-[13px]">
                 Purchase Now
               </button>
               <FaLongArrowAltRight />
@@ -145,53 +145,53 @@ export default function Package() {
         <div className="flex flex-col gap-3 w-[280px] bg-slate-200 rounded-lg group">
           <div className="flex flex-col gap-3 bg-indigo-950 transition-all ease-in-out delay-200 duration-700 group-hover:bg-blue-500 text-white p-5 rounded-lg">
             <div className="flex flex-col gap-3">
-              <h1 className="font-bold text-[20px] mmd:text-[16px]">
+              <h1 className="font-bold text-[20px] mxl:text-[16px]">
                 Platinum Package
               </h1>
-              <p className="text-[15px] mmd:text-[13px]">
+              <p className="text-[15px] mxl:text-[13px]">
                 Pricing plan for IT Solution company
               </p>
             </div>
             <div className="flex flez-row items-center gap-1">
-              <h1 className="font-bold text-[27px] mmd:text-[22px]">$599.00</h1>
-              <h4 className="text-[14px] mmd:text-[11px]">/Per Month</h4>
+              <h1 className="font-bold text-[27px] mxl:text-[22px]">$599.00</h1>
+              <h4 className="text-[14px] mxl:text-[11px]">/Per Month</h4>
             </div>
           </div>
           <div className="gap-3 flex flex-col pb-5">
             <div className="flex flex-col gap-3 p-5">
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   30 Days Trial Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Unlimited Features
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Multi-Language Content
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Data Backup and recovery
                 </p>
               </div>
               <div className="flex flex-row items-center  gap-3">
                 <FaCircleCheck color="blue" />
-                <p className="text-[14px] mmd:text-[11px]">
+                <p className="text-[14px] mxl:text-[11px]">
                   Synced To Cloud Database
                 </p>
               </div>
             </div>
             <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
-              <button className="uppercase font-bold text-[15px] mmd:text-[13px]">
+              <button className="uppercase font-bold text-[13px] mxl:text-[13px]">
                 Purchase Now
               </button>
               <FaLongArrowAltRight />
