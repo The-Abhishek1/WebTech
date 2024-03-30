@@ -92,7 +92,7 @@ export default function ProgressSlider() {
         <div className="flex flex-col items-center justify-center gap-2">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
-            <h3 className="text-[18px] uppercase mxl:text-[15px]">
+            <h3 className="text-[18px] text-center uppercase mxl:text-[15px]">
               Customer FeedBack
             </h3>
           </div>
