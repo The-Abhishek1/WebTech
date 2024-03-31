@@ -30,7 +30,7 @@ export default function Header() {
   //State to show searchBar
   const [showCart, setCart] = useState(false);
   return (
-    <div className="sticky top-0 z-10 w-full flex flex-row items-center text-black p-4 justify-between">
+    <div className="sticky top-0 z-20 w-full flex flex-row items-center text-black p-4 justify-between">
       <div className=" w-full h-full overflow-hidden absolute left-0 -z-10">
         <div className="blur-3xl bg-slate-400 w-full h-full"></div>
       </div>
@@ -121,7 +121,7 @@ export default function Header() {
             <li>
               <Link
                 onClick={() => setShowMenu(false)}
-                href="aboutus"
+                href="/aboutus"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 About Us
@@ -130,7 +130,7 @@ export default function Header() {
             <li>
               <Link
                 onClick={() => setShowMenu(false)}
-                href="services"
+                href="/services"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Services
@@ -148,7 +148,7 @@ export default function Header() {
             <li>
               <Link
                 onClick={() => setShowMenu(false)}
-                href="contact"
+                href="/contact"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Contact
@@ -169,7 +169,7 @@ export default function Header() {
           <ul className="flex cursor-pointer flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
               <Link
-                href="webdevelopment"
+                href="/webdevelopment"
                 className="block cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
                 aria-current="page"
               >
@@ -178,7 +178,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="softwareservices"
+                href="/softwareservices"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 Software Services
@@ -186,7 +186,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="businessanalysis"
+                href="/businessanalysis"
                 className="block text-[15px] cursor-pointer hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Bussiness Analysis

@@ -28,7 +28,7 @@ export default function AboutDigital() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row gap-7 mlg:flex-col-reverse">
+      <div className="flex flex-row mlg:items-center gap-7 mlg:flex-col-reverse">
         <Image src={photo} alt="" className="w-[250px]" />
 
         <div className="flex flex-col gap-3">

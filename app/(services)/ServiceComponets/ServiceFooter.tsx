@@ -25,7 +25,7 @@ import Link from "next/link";
 import { useRouter, redirect } from "next/navigation";
 
 //Main Function
-export default function Footer() {
+export default function ServiceFooter() {
   //UseEffect for scroll animation
   useEffect(() => {
     AOS.init();
@@ -153,44 +153,38 @@ export default function Footer() {
           <div className="flex flex-col gap-3 justify-center">
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="services/webdevelopment" className="mlg:text-[13px]">
+              <Link href="webdevelopment" className="mlg:text-[13px]">
                 Web Development
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="services/appdevelopment" className="mlg:text-[13px]">
+              <Link href="appdevelopment" className="mlg:text-[13px]">
                 App Development
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="services/uiuxdesign" className="mlg:text-[13px]">
+              <Link href="uiuxdesign" className="mlg:text-[13px]">
                 UI/UX Design
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link
-                href="services/businessanalysis"
-                className="mlg:text-[13px]"
-              >
+              <Link href="businessanalysis" className="mlg:text-[13px]">
                 Bussiness Analysis
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link
-                href="services/digitalmarketing"
-                className="mlg:text-[13px]"
-              >
+              <Link href="digitalmarketing" className="mlg:text-[13px]">
                 Digital Marketing
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="services/softwareservices"
+                href="softwareservices"
                 className="mlg:text-[13px] cursor-pointer"
               >
                 Software Services

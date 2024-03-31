@@ -4,6 +4,7 @@ import Services from "../(services)/ServiceComponets/Services";
 import Contact from "../Components/Contact";
 import FeedBack from "../Components/FeedBack";
 import WorkProcess from "../(services)/ServiceComponets/WorkProcess";
+import Footer from "../(services)/ServiceComponets/Footer";
 
 //Main Function
 export default function page() {
@@ -14,6 +15,7 @@ export default function page() {
       <Contact />
       <WorkProcess />
       <FeedBack />
+      <Footer />
     </>
   );
 }

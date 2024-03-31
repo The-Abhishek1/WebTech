@@ -10,6 +10,7 @@ import FeedBack from "./Components/FeedBack";
 import Contact from "./Components/Contact";
 import Package from "./Components/Package";
 import FAQ from "./Components/FAQ";
+import Footer from "./Components/Footer";
 
 //Main Function
 function Page() {
@@ -25,6 +26,7 @@ function Page() {
       <Contact />
       <Package />
       <FAQ />
+      <Footer />
     </div>
   );
 }

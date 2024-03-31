@@ -5,6 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import image from "@/publicresponsive-design.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/navigation";
 
 //Main Function
 export default function FirstSlide() {
@@ -12,6 +13,8 @@ export default function FirstSlide() {
   useEffect(() => {
     AOS.init();
   });
+
+  const router = useRouter();
   return (
     <div className="bg-slate-200">
       <div className=" flex flex-row items-center justify-around p-4 py-8 msm:flex-col-reverse gap-4">
@@ -24,7 +27,12 @@ export default function FirstSlide() {
             and UI/UX design. Let us ignite your digital journey! 💻📱
           </p>
           <q className="italic">#InnovationUnleashed</q>
-          <div className="p-2 cursor-pointer shadow-lg shadow-blue-400 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[150px]">
+          <div
+            onClick={() => {
+              router.push("aboutus");
+            }}
+            className="p-2 cursor-pointer shadow-lg shadow-blue-400 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[150px]"
+          >
             <button className="uppercase font-bold text-[13px]">
               About Us
             </button>
