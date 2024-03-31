@@ -178,6 +178,12 @@ export default function Footer() {
                 Digital Marketing
               </Link>
             </div>
+            <div className="flex flex-row items-center  gap-2">
+              <FaAngleRight size={20} />
+              <Link href="softwareservices" className="mlg:text-[13px]">
+                Software Services
+              </Link>
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-3">

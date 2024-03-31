@@ -16,7 +16,7 @@ import { FiMail } from "react-icons/fi";
 //  Main Function
 function TopLinks() {
   return (
-    <div className="bg-slate-200 flex flex-row justify-around p-5">
+    <div className=" text-blue-600 relative flex flex-row justify-around p-5">
       <div className="flex flex-row gap-4 mlg:hidden">
         <div className="flex flex-row items-center gap-2">
           <p>

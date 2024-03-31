@@ -30,7 +30,10 @@ export default function Header() {
   //State to show searchBar
   const [showCart, setCart] = useState(false);
   return (
-    <div className="bg-blue-300 sticky top-0 z-10 w-full flex flex-row items-center text-black p-4 justify-between">
+    <div className="sticky top-0 z-10 w-full flex flex-row items-center text-black p-4 justify-between">
+      <div className=" w-full h-full overflow-hidden absolute left-0 -z-10">
+        <div className="blur-3xl bg-slate-400 w-full h-full"></div>
+      </div>
       <div className="flex flex-row items-center gap-3 ">
         <Image
           src={Logo}
@@ -41,11 +44,11 @@ export default function Header() {
           priority={true}
         />
         <div className="msmm:hidden flex flex-row items-center text-[26px] gap-2 ">
-          <h2 className="font-bold">Ablaze</h2>
+          <h2 className="font-bold text-red-600">Ablaze</h2>
           <h2>Nova</h2>
         </div>
       </div>
-      <div className="flex flex-row relative items-center gap-4 mlg:hidden justify-center">
+      <div className="flex text-blue-500 flex-row relative items-center gap-4 mlg:hidden justify-center">
         <div className=" hover:text-indigo-500 cursor-pointer">Home</div>
         <div className=" hover:text-indigo-500 cursor-pointer">About Us</div>
         <div className="flex flex-row items-center gap-1  hover:text-indigo-500 cursor-pointer">
@@ -279,4 +282,7 @@ export default function Header() {
       ) : null}
     </div>
   );
+}
+{
+  <div className="absolute bg-gray-400 -z-10 border-2 left-0 blur-2xl w-full h-[90%]"></div>;
 }

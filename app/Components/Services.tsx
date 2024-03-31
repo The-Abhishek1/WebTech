@@ -26,7 +26,7 @@ export default function Services() {
     <div className="flex cursor-pointer flex-col gap-5 bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
       <div
         data-aos="fade-up"
-        className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-center"
+        className="flex gap-4 flex-col px-10 items-center justify-center"
       >
         <div className="flex flex-col gap-2 items-center">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
@@ -48,7 +48,7 @@ export default function Services() {
           onClick={() => {
             router.push("services");
           }}
-          className="p-2 lg:absolute right-20 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 shadow-lg shadow-blue-400 text-white w-[200px]"
+          className="p-2 cursor-pointer rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 shadow-lg shadow-blue-400 text-white w-[200px]"
         >
           <button className="uppercase font-bold text-[13px]">
             View all services
