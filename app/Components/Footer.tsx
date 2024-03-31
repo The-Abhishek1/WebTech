@@ -21,6 +21,7 @@ import logo from "@/publiclogo.png";
 import post from "@/publiccustomer-service.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 //Main Function
 export default function Footer() {
@@ -112,23 +113,33 @@ export default function Footer() {
           <div className="flex flex-col gap-3 justify-center">
             <div className="flex flex-row items-center  gap-2 ">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">About Us</h3>
+              <Link href="aboutus" className="mlg:text-[13px]">
+                About Us
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Meet Our Team</h3>
+              <Link href="team" className="mlg:text-[13px]">
+                Meet Our Team
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Our Projects</h3>
+              <Link href="projects" className="mlg:text-[13px]">
+                Our Projects
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Help & FAQ's</h3>
+              <Link href="helpandfaq" className="mlg:text-[13px]">
+                Help & FAQ's
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Contact Us</h3>
+              <Link href="contactus" className="mlg:text-[13px]">
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>
@@ -139,23 +150,33 @@ export default function Footer() {
           <div className="flex flex-col gap-3 justify-center">
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Web Development</h3>
+              <Link href="webdevelopment" className="mlg:text-[13px]">
+                Web Development
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">App Development</h3>
+              <Link href="appdevelopment" className="mlg:text-[13px]">
+                App Development
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">UI/UX Design</h3>
+              <Link href="uiuxdesign" className="mlg:text-[13px]">
+                UI/UX Design
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Bussiness Analysis</h3>
+              <Link href="businessanalysis" className="mlg:text-[13px]">
+                Bussiness Analysis
+              </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <h3 className="mlg:text-[13px]">Digital Marketing</h3>
+              <Link href="digitalmarketing" className="mlg:text-[13px]">
+                Digital Marketing
+              </Link>
             </div>
           </div>
         </div>

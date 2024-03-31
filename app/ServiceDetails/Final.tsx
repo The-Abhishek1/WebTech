@@ -4,6 +4,8 @@ import ImageSlide from "./Image";
 import AboutWeb from "./AboutWeb";
 import About2 from "./About2";
 import Contact from "../Components/Contact";
+import WebFAQ from "./WebFAQ";
+import Benefits from "../Components/Benefits";
 
 export default function Final() {
   return (
@@ -18,7 +20,9 @@ export default function Final() {
           <About2 />
         </div>
       </div>
+      <Benefits />
       <Contact />
+      <WebFAQ />
     </div>
   );
 }

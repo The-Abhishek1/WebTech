@@ -12,6 +12,7 @@ import app from "@/publiccoding.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 //Main Function
 export default function Services() {
@@ -66,23 +67,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div
-              onClick={() => {
-                router.push("services/webdevelopment");
-              }}
-              className="flex flex-col items-center gap-2"
-            >
+            <Link href={"services/webdevelopment"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  Web Developement
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    Web Developement
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex transition delay-150 duration-500 ease-linear flex-row items-center group-hover:text-white group-hover:underline  text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex transition delay-150 duration-500 ease-linear flex-row items-center group-hover:text-white group-hover:underline  text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
@@ -95,18 +93,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <Link href={"services/businessanalysis"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  Bussiness Analysis
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    Bussiness Analysis
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group  w-[250px] rounded-sm">
@@ -119,18 +119,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <Link href={"services/softwareservices"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  Software Services
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    Software Services
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
@@ -143,18 +145,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <Link href={"services/uiuxdesign"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  UI/UX Design
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    UI/UX Design
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
@@ -167,18 +171,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <Link href={"services/degitalmarketing"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  Digital Marketing
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    Digital Marketing
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 relative items-center justify-center  p-4 bg-white group w-[250px] rounded-sm">
@@ -191,18 +197,20 @@ export default function Services() {
                 className="w-[70px]  rounded-full bg-white p-3"
               />
             </div>
-            <div className="flex flex-col items-center gap-2">
+            <Link href={"services/appdevelopment"}>
               <div className="flex flex-col items-center gap-2">
-                <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
-                  App Development
-                </h1>
-                <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                <div className="flex flex-col items-center gap-2">
+                  <h1 className="text-[18px] font-bold mlg:text-[15px] uppercase">
+                    App Development
+                  </h1>
+                  <p className="text-[15px] mlg:text-[13px]">Some Dummy Data</p>
+                </div>
+                <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
+                  <p className="msmm:text-[13px]">Read More</p>
+                  <FaArrowRightLong />
+                </div>
               </div>
-              <div className="flex flex-row items-center transition delay-150 duration-500 ease-linear group-hover:text-white group-hover:underline text-indigo-600 gap-2 py-1">
-                <p className="msmm:text-[13px]">Read More</p>
-                <FaArrowRightLong />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

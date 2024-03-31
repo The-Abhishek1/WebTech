@@ -15,6 +15,7 @@ import { IoMdClose } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 //Main Function
 export default function Header() {
@@ -105,60 +106,50 @@ export default function Header() {
           </div>
           <ul className="flex flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
-              <p
-                onClick={() => {
-                  router.push("/");
-                  setShowMenu(false);
-                }}
+              <Link
+                onClick={() => setShowMenu(false)}
+                href="/"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
                 aria-current="page"
               >
                 Home
-              </p>
+              </Link>
             </li>
             <li>
-              <p
-                onClick={() => {
-                  router.push("aboutus");
-                  setShowMenu(false);
-                }}
+              <Link
+                onClick={() => setShowMenu(false)}
+                href="aboutus"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
               >
                 About Us
-              </p>
+              </Link>
             </li>
             <li>
-              <p
-                onClick={() => {
-                  router.push("services");
-                  setShowMenu(false);
-                }}
+              <Link
+                onClick={() => setShowMenu(false)}
+                href="services"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Services
-              </p>
+              </Link>
             </li>
             <li>
-              <p
-                onClick={() => {
-                  router.push("pages");
-                  setShowMenu(false);
-                }}
+              <Link
+                onClick={() => setShowMenu(false)}
+                href="pages"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Pages
-              </p>
+              </Link>
             </li>
             <li>
-              <p
-                onClick={() => {
-                  router.push("contact");
-                  setShowMenu(false);
-                }}
+              <Link
+                onClick={() => setShowMenu(false)}
+                href="contact"
                 className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
               >
                 Contact
-              </p>
+              </Link>
             </li>
           </ul>
         </div>
@@ -174,22 +165,29 @@ export default function Header() {
           </div>
           <ul className="flex cursor-pointer flex-col p-4 gap-2 mt-4 font-medium rounded-lg  rtl:space-x-reverse  bg-gray-800 ">
             <li>
-              <p
+              <Link
+                href="webdevelopment"
                 className="block cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700 text-[15px] msm:text-[13px] py-2 px-3 text-white rounded "
                 aria-current="page"
               >
                 Web development
-              </p>
+              </Link>
             </li>
             <li>
-              <p className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700">
+              <Link
+                href="softwareservices"
+                className="block cursor-pointer hover:text-gray-900 text-[15px] msm:text-[13px] py-2 px-3  rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700"
+              >
                 Software Services
-              </p>
+              </Link>
             </li>
             <li>
-              <p className="block text-[15px] cursor-pointer hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">
+              <Link
+                href="businessanalysis"
+                className="block text-[15px] cursor-pointer hover:text-gray-900 msm:text-[13px] py-2 px-3 rounded  hover:bg-gray-100 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700"
+              >
                 Bussiness Analysis
-              </p>
+              </Link>
             </li>
           </ul>
         </div>

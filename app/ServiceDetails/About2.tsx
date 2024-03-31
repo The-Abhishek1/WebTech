@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export default function About2() {
   return (
     <div className="flex w-full mmd:items-center flex-col gap-8 bg-red pt-2 p-6 md:px-3">
-      <div className="flex mmd:w-[180%] flex-col p-5 rounded-md  bg-slate-100 gap-3">
+      <div className="flex mmd:w-[180%] msmm:w-[140%] flex-col p-5 rounded-md  bg-slate-100 gap-3">
         <h1 className="text-[20px] text-blue-600 font-bold mlg:text-[20px]">
           All Services
         </h1>
