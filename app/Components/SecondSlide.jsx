@@ -65,7 +65,12 @@ export default function SecondSlide() {
             </p>
           </div>
           <div className="p-2 cursor-pointer rounded-md flex flex-row shadow-lg shadow-blue-400 items-center self-center justify-center gap-2 bg-blue-500 text-white w-[180px]">
-            <button className="uppercase font-bold text-[13px]">
+            <button
+              onClick={() => {
+                console.log("Button Clicked");
+              }}
+              className="uppercase font-bold text-[13px]"
+            >
               Discover More
             </button>
             <FaLongArrowAltRight />
