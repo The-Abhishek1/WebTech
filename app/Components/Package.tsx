@@ -79,7 +79,12 @@ export default function Package() {
               </div>
             </div>
             <div className="p-2 self-center transition-all ease-in-out delay-200 duration-700 cursor-pointer shadow-lg shadow-indigo-950 rounded-md flex flex-row items-center justify-center gap-2 bg-blue-500 text-white w-[180px] hover:bg-indigo-950">
-              <button className="uppercase font-bold text-[13px] mxl:text-[13px]">
+              <button
+                onClick={() => {
+                  console.log("Clicked on Purchased Now");
+                }}
+                className="uppercase font-bold text-[13px] mxl:text-[13px]"
+              >
                 Purchase Now
               </button>
               <FaLongArrowAltRight />
