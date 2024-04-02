@@ -27,7 +27,12 @@ export default function Contact() {
           </h1>
         </div>
         <div className="p-2 hover:bg-indigo-950 transition-all ease-in-out delay-200 duration-700 hover:shadow-slate-100 hover:shadow-sm cursor-pointer rounded-md flex flex-row shadow-md shadow-blue-400 items-center self-center justify-center gap-2 bg-blue-500 text-white w-[170px]">
-          <button className="uppercase font-bold text-[13px]">
+          <button
+            onClick={() => {
+              console.log("Button Clicked");
+            }}
+            className="uppercase font-bold text-[13px]"
+          >
             Get in Touch
           </button>
         </div>
