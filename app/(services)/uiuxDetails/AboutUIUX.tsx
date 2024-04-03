@@ -3,7 +3,7 @@ import React from "react";
 import photo from "@/publictech3.jpg";
 import { FaCircleCheck } from "react-icons/fa6";
 
-//Main Function
+//Main Function for About UIUX
 export default function AboutUIUX() {
   return (
     <div className="flex flex-col gap-5 pt-2 p-6 mlg:items-center">
