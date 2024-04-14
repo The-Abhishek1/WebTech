@@ -104,7 +104,7 @@ export default function ProgressSlider() {
           </p>
         </div>
       </div>
-      <div data-aos="fade-up" className="w-full max-w-5xl mx-auto text-center">
+      <div data-aos="fade-up" className="w-full  max-w-5xl mx-auto text-center">
         {/* Item image */}
         <div className="transition-all duration-150 delay-300 ease-in-out">
           <div className="relative flex flex-col items-center" ref={itemsRef}>
