@@ -21,28 +21,28 @@ export default function ThirdSlide() {
       >
         <Image src={projects} alt="" className="w-[100px] msmm:w-[60px]" />
         <h1 className="text-lg text-blue-600 font-bold">986+</h1>
-        <h5 className="msmm:text-[.8rem] text-[1rem] text-gray-600">
+        <h5 className="msmm:text-[.6rem] text-[1rem] text-gray-600">
           Finished Project
         </h5>
       </div>
       <div data-aos="fade-up" className="flex flex-col items-center gap-2">
         <Image src={happy} alt="" className="w-[100px] msmm:w-[60px]" />
         <h1 className="text-lg text-blue-600 font-bold">854+</h1>
-        <h5 className="msmm:text-[.8rem] text-[1rem] text-gray-600">
+        <h5 className="msmm:text-[.6rem] text-[1rem] text-gray-600">
           Happy Clients
         </h5>
       </div>
       <div data-aos="fade-up" className="flex flex-col items-center gap-2">
         <Image src={help} alt="" className="w-[100px] msmm:w-[60px]" />
         <h1 className="text-lg text-blue-600 font-bold">396+</h1>
-        <h5 className="msmm:text-[.8rem] text-[1rem] text-gray-600">
+        <h5 className="msmm:text-[.6rem] text-[1rem] text-gray-600">
           Skilled Experts
         </h5>
       </div>
       <div data-aos="fade-up" className="flex flex-col items-center gap-2">
         <Image src={certificate} alt="" className="w-[100px] msmm:w-[60px]" />
         <h1 className="text-lg text-blue-600 font-bold">986+</h1>
-        <h5 className="msmm:text-[.8rem] text-[1rem] text-gray-600">
+        <h5 className="msmm:text-[.6rem] text-[1rem] text-gray-600">
           Honorable Awards
         </h5>
       </div>
