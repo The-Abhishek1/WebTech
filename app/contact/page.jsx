@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Footer from "../Components/Footer";
-import ContactFirstSlide from "./(contactComponents)/ContactFirstSlide";
-import ContactLinks from "./(contactComponents)/ContactLinks";
-import MessagePage from "./(contactComponents)/MessagePage";
 
+import ContactFirstSlide from "../(ContactComponents)/ContactFirstSlide";
+import ContactLinks from "../(ContactComponents)/ContactLinks";
+import MessagePage from "../(ContactComponents)/MessagePage";
 //Main Function
 export default function page() {
   return (
