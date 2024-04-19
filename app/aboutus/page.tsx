@@ -4,8 +4,8 @@ import Team from "../Components/Team";
 import ThirdSlide from "../Components/ThirdSlide";
 import ProgressSlider from "../Components/FeedBack";
 import Contact from "../Components/Contact";
-import FirstSlide from "./AboutComponents/FirstSlide";
-import SecondSlide from "./AboutComponents/SecondSlide";
+import FirstSlide from "./(AboutComponents)/FirstSlide";
+import SecondSlide from "./(AboutComponents)/SecondSlide";
 
 //Main Function
 export default function page() {
