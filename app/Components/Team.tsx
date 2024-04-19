@@ -16,9 +16,9 @@ import "aos/dist/aos.css";
 //Main Function
 export default function Team() {
   //UseEffect
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   return (
     <div className="flex cursor-pointer flex-col gap-5 items-center bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
       <div

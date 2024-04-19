@@ -13,9 +13,9 @@ import "aos/dist/aos.css";
 //Main Function
 export default function SecondSlide() {
   //UseEffect for AOS
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
 
   return (
     <div className="flex  bg-slate-200 flex-row items-center justify-around p-4 py-8 msm:pb-0 msm:flex-col-reverse gap-4">

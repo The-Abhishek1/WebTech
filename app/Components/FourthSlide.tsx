@@ -9,9 +9,9 @@ import "aos/dist/aos.css";
 //Main Function
 export default function FourthSlide() {
   //UseEffect
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   return (
     <div className="mlg:flex-col flex flex-row justify-around  px-10 py-5 lg:gap-10 bg-slate-200 ">
       <div

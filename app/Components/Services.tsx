@@ -17,9 +17,9 @@ import Link from "next/link";
 //Main Function
 export default function Services() {
   //UseEffect
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
 
   const router = useRouter();
   return (

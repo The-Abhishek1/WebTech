@@ -9,9 +9,9 @@ import "aos/dist/aos.css";
 //Main Function
 export default function Package() {
   //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   return (
     <div className="flex bg-slate-100 flex-col items-center gap-7 py-10 px-5">
       <div data-aos="fade-up" className="flex flex-col items-center gap-3">

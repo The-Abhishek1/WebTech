@@ -20,9 +20,9 @@ import Link from "next/link";
 //Main Function
 export default function Header() {
   const router = useRouter();
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   //State to show menu bar
   const [showMenu, setShowMenu] = useState(false);
   //State to show searchBar

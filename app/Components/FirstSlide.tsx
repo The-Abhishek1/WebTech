@@ -10,9 +10,9 @@ import { useRouter } from "next/navigation";
 //Main Function
 export default function FirstSlide() {
   //UseEffect for AOS
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
 
   const router = useRouter();
   return (

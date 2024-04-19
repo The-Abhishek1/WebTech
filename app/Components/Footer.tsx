@@ -27,9 +27,9 @@ import { useRouter, redirect } from "next/navigation";
 //Main Function
 export default function Footer() {
   //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
 
   const router = useRouter();
   return (

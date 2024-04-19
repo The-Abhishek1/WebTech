@@ -9,10 +9,10 @@ import "aos/dist/aos.css";
 
 //Main Function
 export default function FAQ() {
-  //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
+  // //UseEffect for scroll animation
+  // useEffect(() => {
+  //   AOS.init();
+  //});
   const [firstshow, setfFirstShow] = useState(false);
   const [secondtshow, setfSecondShow] = useState(false);
   const [thirdhow, setThirdShow] = useState(false);

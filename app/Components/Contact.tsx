@@ -6,14 +6,14 @@ import "aos/dist/aos.css";
 
 //Main Function
 export default function Contact() {
-  //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
+  // //UseEffect for scroll animation
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   return (
     <div className="bg-indigo-950">
       <div
-        data-aos="fade-up"
+        // data-aos="fade-up"
         className="flex  text-white  flex-col items-center gap-7 py-10 px-5"
       >
         <div className="flex flex-row items-center gap-3">

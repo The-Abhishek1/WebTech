@@ -10,9 +10,9 @@ import "aos/dist/aos.css";
 
 //Main Function
 export default function ThirdSlide() {
-  useEffect(() => {
-    AOS.init();
-  });
+  // useEffect(() => {
+  //   AOS.init();
+  // });
   return (
     <div className="msm:grid border-b-[1px] bg-slate-200  msm:grid-cols-2  flex flex-row flex-wrap items-center justify-around p-5 py-10 gap-10 transition-all dealy-[300ms] duration-[600ms] toas:translate-y-[100%] toas:invisible">
       <div
