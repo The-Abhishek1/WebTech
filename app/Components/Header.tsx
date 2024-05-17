@@ -12,17 +12,13 @@ import { IoSearchOutline } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { GoGoal } from "react-icons/go";
 import { IoMdClose } from "react-icons/io";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 //Main Function
 export default function Header() {
   const router = useRouter();
-  // useEffect(() => {
-  //   AOS.init();
-  // });
+
   //State to show menu bar
   const [showMenu, setShowMenu] = useState(false);
   //State to show searchBar

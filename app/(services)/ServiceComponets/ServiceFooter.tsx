@@ -19,32 +19,19 @@ import {
 import Image from "next/image";
 import logo from "@/publiclogo.png";
 import post from "@/publiccustomer-service.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Link from "next/link";
 import { useRouter, redirect } from "next/navigation";
 
 //Main Function
 export default function ServiceFooter() {
-  //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
-
   const router = useRouter();
   return (
     <div className="flex flex-col bg-indigo-900 p-6 text-white gap-10">
-      <div
-        data-aos="fade-up"
-        className="flex flex-row gap-2 justify-center items-center"
-      >
+      <div className="flex flex-row gap-2 justify-center items-center">
         <Image src={logo} alt="logo" className="h-[40px] w-[40px] rounded-md" />
         <h1 className="text-[30px] font-bold mxl:text-[20px]">Ablaze Nova</h1>
       </div>
-      <div
-        data-aos="fade-up"
-        className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around"
-      >
+      <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
         <div className="flex flex-row items-center gap-3">
           <div className="bg-white p-4 mlg:p-2 text-indigo-600 rounded-md shadow-md shadow-slate-300 cursor-pointer">
             <IoCallSharp size={30} />
@@ -79,10 +66,7 @@ export default function ServiceFooter() {
           </div>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-evenly gap-4 msm:gap-8"
-      >
+      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-evenly gap-4 msm:gap-8">
         <div className="flex flex-col gap-5">
           <h1 className="text-center uppercase font-bold text-[20px] mxl:text-[15px]">
             About Company

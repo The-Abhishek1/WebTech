@@ -9,25 +9,15 @@ import website from "@/publicapp-development.png";
 import business from "@/publicdata-analysis.png";
 import services from "@/publicsoftwareservice.png";
 import app from "@/publiccoding.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 //Main Function
 export default function Services() {
-  //UseEffect
-  // useEffect(() => {
-  //   AOS.init();
-  // });
-
   const router = useRouter();
   return (
     <div className="flex cursor-pointer flex-col gap-5 bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
-      <div
-        data-aos="fade-up"
-        className="flex gap-4 flex-col px-10 items-center justify-center"
-      >
+      <div className="flex gap-4 flex-col px-10 items-center justify-center">
         <div className="flex flex-col gap-2 items-center">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />

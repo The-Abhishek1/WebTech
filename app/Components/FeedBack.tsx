@@ -7,8 +7,6 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import photo1 from "@/publicapp-development.png";
 import photo2 from "@/publicbillboard.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 //Main Function
 export default function ProgressSlider() {
@@ -78,17 +76,9 @@ export default function ProgressSlider() {
   useEffect(() => {
     heightFix();
   }, []);
-
-  //UseEffect for scroll animation
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="flex flex-col items-center bg-slate-200 border-2 px-2 py-8 gap-2">
-      <div
-        data-aos="fade-up"
-        className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
-      >
+      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
         <div className="flex flex-col items-center justify-center gap-2">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
@@ -104,7 +94,7 @@ export default function ProgressSlider() {
           </p>
         </div>
       </div>
-      <div data-aos="fade-up" className="w-full  max-w-5xl mx-auto text-center">
+      <div className="w-full  max-w-5xl mx-auto text-center">
         {/* Item image */}
         <div className="transition-all duration-150 delay-300 ease-in-out">
           <div className="relative flex flex-col items-center" ref={itemsRef}>

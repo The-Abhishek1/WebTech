@@ -3,17 +3,10 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import image from "@/publicresponsive-design.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useRouter } from "next/navigation";
 
 //Main Function
 export default function FirstSlide() {
-  //UseEffect for AOS
-  // useEffect(() => {
-  //   AOS.init();
-  // });
-
   const router = useRouter();
   return (
     <div className="bg-slate-200">

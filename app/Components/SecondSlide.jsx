@@ -7,16 +7,9 @@ import { ImCheckboxChecked } from "react-icons/im";
 import photo1 from "@/publicdesign.png";
 import photo2 from "@/publicapi.png";
 import photo3 from "@/publicweb-maintenance.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 //Main Function
 export default function SecondSlide() {
-  //UseEffect for AOS
-  // useEffect(() => {
-  //   AOS.init();
-  // });
-
   return (
     <div className="flex  bg-slate-200 flex-row items-center justify-around p-4 py-8 msm:pb-0 msm:flex-col-reverse gap-4">
       <div className="relative">

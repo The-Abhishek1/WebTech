@@ -10,21 +10,12 @@ import karthi from "@/publickarthi.jpg";
 import bhuvanesh from "@/publicbhuvanesh.jpg";
 import sumit from "@/publicsumit.jpg";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 //Main Function
 export default function Team() {
-  //UseEffect
-  // useEffect(() => {
-  //   AOS.init();
-  // });
   return (
     <div className="flex cursor-pointer flex-col gap-5 items-center bg-slate-200 lg:p-10 mlg:p-3 mlg:py-4 rounded-md">
-      <div
-        data-aos="fade-up"
-        className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between"
-      >
+      <div className="flex lg:flex-row gap-4 flex-col px-10 items-center justify-between">
         <div className="flex flex-col items-center justify-center gap-2">
           <div className="flex text-blue-600 mlg:justify-center flex-row items-center gap-2">
             <BsMotherboard size={30} />
